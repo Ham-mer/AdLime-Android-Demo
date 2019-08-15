@@ -315,14 +315,6 @@ public class MainActivity extends Activity {
     }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
-
-        // Release when app exit.
-        AdLime.getDefault().release();
-    }
-
-    @Override
     public void onBackPressed() {
         super.onBackPressed();
 

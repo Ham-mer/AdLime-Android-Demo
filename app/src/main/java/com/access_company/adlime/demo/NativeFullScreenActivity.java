@@ -79,13 +79,6 @@ public class NativeFullScreenActivity extends Activity {
     }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        // Release when app exit.
-        AdLime.getDefault().release();
-    }
-
-    @Override
     public void onBackPressed() {
         super.onBackPressed();
         // You should add onBackPressed callback if you mediation Chartboost.
