@@ -39,11 +39,6 @@
             android:name="applovin.sdk.key"
             android:value="qTA2uuo2zUQLXHPGDPooTJLZprJIiR6HDcHEgaJq24ErXVwNTqt73MlOFEssXOL9Q1RIFDlR1136N8uhTlthKc" />
 
-        <!-- DU Ad Platform 配置 -->
-        <meta-data
-            android:name="app_license"
-            android:value="162025bb97c64772b2288919d51b0250" />
-
         <uses-library android:name="org.apache.http.legacy" android:required="false" />
     </application>
 </manifest>

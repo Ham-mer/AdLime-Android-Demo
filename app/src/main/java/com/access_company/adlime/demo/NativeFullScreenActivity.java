@@ -1,6 +1,7 @@
 package com.access_company.adlime.demo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -73,6 +74,9 @@ public class NativeFullScreenActivity extends Activity {
         close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(NativeFullScreenActivity.this, MainActivity.class);
+                startActivity(intent);
                 finish();
             }
         });

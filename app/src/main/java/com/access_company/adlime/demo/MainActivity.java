@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
 
     // BannerAd
     private Button mBannerLoadButton;
-    private BannerAdView mBannerAdView;
+    private static BannerAdView mBannerAdView;
 
     // NativeAd
     private Button mNativeLoadButton;
@@ -59,43 +59,46 @@ public class MainActivity extends Activity {
 
         // Init Ads
         initBannerAdView();
-        initNativeAd();
-        //initNativeAdFullScreen(); // Use native for fullscreen
+        //initNativeAd();
+        initNativeAdFullScreen(); // Use native for fullscreen
         initInterstitialAd();
         initRewardedVideoAd();
     }
 
     private void initBannerAdView() {
-        mBannerAdView = new BannerAdView(this);
-        mBannerAdView.setAdUnitId("e302ae32-d770-4635-9b2f-97fd024e059e");
+        if (mBannerAdView == null) {
+            mBannerAdView = new BannerAdView(this);
+            mBannerAdView.setAdUnitId("e302ae32-d770-4635-9b2f-97fd024e059e");
 
-        // Listen Ad load result
-        mBannerAdView.setAdListener(new SimpleAdListener() {
-            @Override
-            public void onAdLoaded() {
-                Log.d(TAG, "BannerAdView onAdLoaded");
-            }
+            // Listen Ad load result
+            mBannerAdView.setAdListener(new SimpleAdListener() {
+                @Override
+                public void onAdLoaded() {
+                    Log.d(TAG, "BannerAdView onAdLoaded");
+                }
 
-            @Override
-            public void onAdShown() {
-                Log.d(TAG, "BannerAdView onAdShown");
-            }
+                @Override
+                public void onAdShown() {
+                    Log.d(TAG, "BannerAdView onAdShown");
+                }
 
-            @Override
-            public void onAdClicked() {
-                Log.d(TAG, "BannerAdView onAdClicked");
-            }
+                @Override
+                public void onAdClicked() {
+                    Log.d(TAG, "BannerAdView onAdClicked");
+                }
 
-            @Override
-            public void onAdClosed() {
-                Log.d(TAG, "BannerAdView onAdClosed");
-            }
+                @Override
+                public void onAdClosed() {
+                    Log.d(TAG, "BannerAdView onAdClosed");
+                }
 
-            @Override
-            public void onAdFailedToLoad(AdError adError) {
-                Log.d(TAG, "BannerAdView onAdFailedToLoad: " + adError.toString());
-            }
-        });
+                @Override
+                public void onAdFailedToLoad(AdError adError) {
+                    Log.d(TAG, "BannerAdView onAdFailedToLoad: " + adError.toString());
+                }
+            });
+        }
+
 
         // Load Ad
         mBannerLoadButton = findViewById(R.id.banner_load);
@@ -168,9 +171,12 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 //mNativeAd.loadAd();
+                ViewGroup container = findViewById(R.id.banneradview_container);
+                container.removeView(mBannerAdView);
                 Intent intent = new Intent();
                 intent.setClass(MainActivity.this, NativeFullScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
