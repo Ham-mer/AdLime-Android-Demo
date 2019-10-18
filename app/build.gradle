@@ -4,14 +4,11 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.access_company.adlime.demo"
-        // for Fyber
-//        applicationId "com.inner.adsdk.demo"
         // for Vungle
 //        applicationId "com.publisher.vungle.sample"
-        // for DAP
-//        applicationId "abs.workout.home.fit.belly.fat"
         // for Amazon
 //        applicationId "com.amazon.sample.simplead"
+
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
