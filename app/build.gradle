@@ -46,7 +46,7 @@ dependencies {
     implementation "com.google.android.gms:play-services-ads:17.1.2"
 
     // AdGeneration
-    implementation "com.access_company.adlime:mediation_adgeneration:2.15.1.2"
+    implementation "com.access_company.adlime:mediation_adgeneration:2.15.1.3"
     implementation "com.socdm.d.adgeneration:adg:2.15.1"
     implementation "com.google.android.gms:play-services-ads-identifier:16.0.0"
     implementation "com.google.android.gms:play-services-ads:17.1.2"
@@ -66,8 +66,8 @@ dependencies {
     implementation "com.google.android.gms:play-services-ads:17.2.1"
 
     // AppLovin
-    implementation "com.access_company.adlime:mediation_applovin:9.7.2.1"
-    implementation "com.applovin:applovin-sdk:9.7.2"
+    implementation "com.access_company.adlime:mediation_applovin:9.9.2.0"
+    implementation "com.applovin:applovin-sdk:9.9.2"
     implementation "com.google.android.gms:play-services-ads:17.2.1"
 
     // Chartboost
@@ -124,7 +124,7 @@ dependencies {
     implementation "com.google.android.gms:play-services-ads-identifier:16.0.0"
 
     // Maio
-    implementation "com.access_company.adlime:mediation_maio:1.1.9.0"
+    implementation "com.access_company.adlime:mediation_maio:1.1.9.1"
     implementation ("com.maio:android-sdk:1.1.9@aar")
     implementation "com.google.android.gms:play-services-ads:17.2.1"
 
@@ -140,7 +140,7 @@ dependencies {
     implementation "com.access_company.adlime:mopub-sdk-interstitial:5.7.1"
 
     // Nend
-    implementation "com.access_company.adlime:mediation_nend:5.1.1.5"
+    implementation "com.access_company.adlime:mediation_nend:5.1.1.6"
     implementation "net.nend.android:nend-sdk:5.1.1"
 
     // Tapjoy
@@ -170,5 +170,5 @@ dependencies {
 
     // Criteo
     implementation "com.access_company.adlime:criteopublishersdk:3.0.1"
-    implementation "com.access_company.adlime:mediation_criteo:3.0.1.0"
+    implementation "com.access_company.adlime:mediation_criteo:3.0.1.1"
 }
