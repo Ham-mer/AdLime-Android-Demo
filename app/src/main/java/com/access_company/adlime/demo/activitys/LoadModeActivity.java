@@ -18,13 +18,11 @@ public class LoadModeActivity extends BaseActivity {
     // shuffle
     private Button mShuffleButton;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_strategy);
-        getActionBar().setTitle("Mode Test");
+        getActionBar().setTitle("Strategy Test");
         initView();
     }
 

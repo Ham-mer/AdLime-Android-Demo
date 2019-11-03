@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.setClass(MainActivity.this, MediationActivity.class);
-                intent.putExtra(Constance.BUNDLE_NETWORK_NAME, "Creative");
+                intent.putExtra(Constance.BUNDLE_NETWORK_NAME, "Base Test");
                 intent.putExtra(Constance.BUNDLE_TYPE_BANNER,Constance.CREATIVE_BANNER_ID);
                 intent.putExtra(Constance.BUNDLE_TYPE_REWARDED,Constance.CREATIVE_REWARDED_ID);
                 intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL,Constance.CREATIVE_INTERSTITIAL_ID);
