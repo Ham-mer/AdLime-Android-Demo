@@ -12,7 +12,7 @@ public class TestApplication extends Application {
 
         AdLime.getDefault().setGdprConsent(true);
         // Show Log
-        AdLime.setTestServer("https://sdktest.adlime.net");
+//        AdLime.setTestServer("https://sdktest.adlime.net");
         AdLime.setLogEnable(true);
         // Init With AppId
         AdLimeConfiguration configuration = new AdLimeConfiguration.Builder(this)
