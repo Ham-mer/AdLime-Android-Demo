@@ -42,6 +42,13 @@
       "native": ""
     },
     {
+      "adName": "Criteo",
+      "banner": "a57a4c37-bc7d-435b-921a-ed73f4413c86",
+      "rewarded": "",
+      "interstitial": "28643335-0fef-4268-a1c5-06ecc956a67f",
+      "native": ""
+    },
+    {
       "adName": "DFP",
       "banner": "617e49c3-4d6e-4b69-806e-776873fa0c72",
       "rewarded": "ebe8be54-0e95-49ff-9faf-aba17c43b548",
@@ -140,10 +147,10 @@
       "native": ""
     },
     {
-      "adName": "Criteo",
-      "banner": "a57a4c37-bc7d-435b-921a-ed73f4413c86",
-      "rewarded": "",
-      "interstitial": "28643335-0fef-4268-a1c5-06ecc956a67f",
+      "adName": "Vungle",
+      "banner": "3b748e88-11b4-4e81-bdf4-eb394794491e",
+      "rewarded": "35eaf388-83d9-45ce-bd3e-d2f781064c99",
+      "interstitial": "2d668f07-b84e-4868-bb68-5f06d8be8052",
       "native": ""
     },
     {
@@ -154,17 +161,11 @@
       "native": ""
     },
     {
-      "adName": "Creative",
+      "adName": "Creative Ads",
       "banner": "5502dfa5-6652-42fb-9e7e-215337799789",
       "rewarded": "9c9509b3-b4cf-4354-a515-1e754657ef6e",
       "interstitial": "5568ac9e-be1e-48d6-90f4-726d2f71bc94",
       "native": "5a28316a-0798-44d1-817e-119998c53643"
-    },
-    {
-      "adName": "Vungle",
-      "banner": "3b748e88-11b4-4e81-bdf4-eb394794491e",
-      "rewarded": "35eaf388-83d9-45ce-bd3e-d2f781064c99",
-      "interstitial": "2d668f07-b84e-4868-bb68-5f06d8be8052",
-      "native": ""
-    }]
+    }
+  ]
 }
