@@ -13,6 +13,7 @@ import com.access_company.adlime.core.api.ad.BannerAdView;
 import com.access_company.adlime.core.api.listener.AdError;
 import com.access_company.adlime.core.api.listener.SimpleAdListener;
 import com.access_company.adlime.demo.R;
+import com.facebook.ads.AdSettings;
 
 
 public class BannerActivity extends BaseActivity {
@@ -34,6 +35,7 @@ public class BannerActivity extends BaseActivity {
         initData();
         // Init BannerAdView
         initBannerAdView();
+        AdSettings.addTestDevice("57f3d334-c486-4a1c-b231-5a5a87b3d3a0");
 
     }
 

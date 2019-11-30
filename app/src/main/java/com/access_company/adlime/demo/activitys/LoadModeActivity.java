@@ -56,7 +56,7 @@ public class LoadModeActivity extends BaseActivity {
         Intent intent = new Intent();
         intent.setClass(LoadModeActivity.this, MediationActivity.class);
         intent.putExtra(Constance.BUNDLE_NETWORK_NAME, "Serial");
-        intent.putExtra(Constance.BUNDLE_TYPE_BANNER,Constance.SERIAL_BANNER_ID);
+        intent.putExtra(Constance.BUNDLE_TYPE_BANNER_320_50,Constance.SERIAL_BANNER_ID);
         intent.putExtra(Constance.BUNDLE_TYPE_REWARDED,Constance.SERIAL_REWARDED_ID);
         intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL,Constance.SERIAL_INTERSTITIAL_ID);
         intent.putExtra(Constance.BUNDLE_TYPE_NATIVE,Constance.SERIAL_NATIVE_ID);
@@ -67,7 +67,7 @@ public class LoadModeActivity extends BaseActivity {
         Intent intent = new Intent();
         intent.setClass(LoadModeActivity.this, MediationActivity.class);
         intent.putExtra(Constance.BUNDLE_NETWORK_NAME, "parallel");
-        intent.putExtra(Constance.BUNDLE_TYPE_BANNER,Constance.PARALLEL_BANNER_ID);
+        intent.putExtra(Constance.BUNDLE_TYPE_BANNER_320_50,Constance.PARALLEL_BANNER_ID);
         intent.putExtra(Constance.BUNDLE_TYPE_REWARDED,Constance.PARALLEL_REWARDED_ID);
         intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL,Constance.PARALLEL_INTERSTITIAL_ID);
         intent.putExtra(Constance.BUNDLE_TYPE_NATIVE,Constance.PARALLEL_NATIVE_ID);
@@ -78,7 +78,7 @@ public class LoadModeActivity extends BaseActivity {
         Intent intent = new Intent();
         intent.setClass(LoadModeActivity.this, MediationActivity.class);
         intent.putExtra(Constance.BUNDLE_NETWORK_NAME, "parallel");
-        intent.putExtra(Constance.BUNDLE_TYPE_BANNER,Constance.SHUFFLE_BANNER_ID);
+        intent.putExtra(Constance.BUNDLE_TYPE_BANNER_320_50,Constance.SHUFFLE_BANNER_ID);
         intent.putExtra(Constance.BUNDLE_TYPE_REWARDED,Constance.SHUFFLE_REWARDED_ID);
         intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL,Constance.SHUFFLE_INTERSTITIAL_ID);
         intent.putExtra(Constance.BUNDLE_TYPE_NATIVE,Constance.SHUFFLE_NATIVE_ID);

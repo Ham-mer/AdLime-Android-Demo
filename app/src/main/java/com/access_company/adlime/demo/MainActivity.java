@@ -27,7 +27,11 @@ public class MainActivity extends Activity {
                 Intent intent = new Intent();
                 intent.setClass(MainActivity.this, MediationActivity.class);
                 intent.putExtra(Constance.BUNDLE_NETWORK_NAME, "Base Test");
-                intent.putExtra(Constance.BUNDLE_TYPE_BANNER,Constance.CREATIVE_BANNER_ID);
+                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_320_50,Constance.CREATIVE_BANNER_ID);
+                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_320_100,Constance.CREATIVE_BANNER_ID);
+                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_300_250,Constance.CREATIVE_BANNER_ID);
+                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_468_60,Constance.CREATIVE_BANNER_ID);
+                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_728_90,Constance.CREATIVE_BANNER_ID);
                 intent.putExtra(Constance.BUNDLE_TYPE_REWARDED,Constance.CREATIVE_REWARDED_ID);
                 intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL,Constance.CREATIVE_INTERSTITIAL_ID);
                 intent.putExtra(Constance.BUNDLE_TYPE_NATIVE,Constance.CREATIVE_NATIVE_ID);

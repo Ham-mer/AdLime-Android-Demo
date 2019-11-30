@@ -3,7 +3,12 @@ package com.access_company.adlime.demo.constance;
 public class Constance {
     public static final String BUNDLE_NETWORK_NAME = "name";
 
-    public static final String BUNDLE_TYPE_BANNER = "banner";
+    public static final String BUNDLE_TYPE_MEDIATION_NAME = "adName";
+    public static final String BUNDLE_TYPE_BANNER_320_50 = "banner_320_50";
+    public static final String BUNDLE_TYPE_BANNER_320_100 = "banner_320_100";
+    public static final String BUNDLE_TYPE_BANNER_300_250 = "banner_300_250";
+    public static final String BUNDLE_TYPE_BANNER_468_60 = "banner_468_60";
+    public static final String BUNDLE_TYPE_BANNER_728_90 = "banner_728_90";
     public static final String BUNDLE_TYPE_NATIVE = "native";
     public static final String BUNDLE_TYPE_INTERSTITIAL = "interstitial";
     public static final String BUNDLE_TYPE_REWARDED = "rewarded";
