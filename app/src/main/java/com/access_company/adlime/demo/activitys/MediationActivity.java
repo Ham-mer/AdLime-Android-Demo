@@ -22,6 +22,8 @@ public class MediationActivity extends BaseActivity {
     private String mInterstitialId;
     private String mNativeId;
     private String mRewardedId;
+    private String mMixViewId;
+    private String mMixFullScreenId;
     private String mNetworkName;
 
     // BannerAd
@@ -41,6 +43,12 @@ public class MediationActivity extends BaseActivity {
     // RewardedVideoAd
     private Button mRewardedLoadButton;
 
+    // MixedViewAd
+    private Button mMixViewLoadButton;
+
+    // MixFullScreen
+    private Button mMixFullScreenLoadButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +62,8 @@ public class MediationActivity extends BaseActivity {
         initNativeAd();
         initInterstitialAd();
         initRewardedVideoAd();
+        initMixViewAd();
+        initMixFullScreen();
     }
 
     private void initData() {
@@ -67,6 +77,8 @@ public class MediationActivity extends BaseActivity {
         mInterstitialId = intent.getStringExtra(Constance.BUNDLE_TYPE_INTERSTITIAL);
         mNativeId = intent.getStringExtra(Constance.BUNDLE_TYPE_NATIVE);
         mRewardedId = intent.getStringExtra(Constance.BUNDLE_TYPE_REWARDED);
+        mMixViewId = intent.getStringExtra(Constance.BUNDLE_TYPE_MIXVIEW);
+        mMixFullScreenId = intent.getStringExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN);
     }
 
     private void initBannerAdView() {
@@ -193,6 +205,46 @@ public class MediationActivity extends BaseActivity {
                 Intent intent = new Intent();
                 intent.setClass(MediationActivity.this, RewardedVideoActivity.class);
                 intent.putExtra("rewarded", mRewardedId);
+                startActivity(intent);
+            }
+        });
+
+    }
+
+    private void initMixViewAd() {
+        // Create RewardedVideoAd
+        mMixViewLoadButton = findViewById(R.id.mixview_button);
+
+        if (mMixViewId == null || TextUtils.isEmpty(mMixViewId)) {
+            mMixViewLoadButton.setVisibility(View.GONE);
+            return;
+        }
+        mMixViewLoadButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(MediationActivity.this, MixViewActivity.class);
+                intent.putExtra(Constance.BUNDLE_TYPE_MIXVIEW, mMixViewId);
+                startActivity(intent);
+            }
+        });
+
+    }
+
+    private void initMixFullScreen() {
+        // Create RewardedVideoAd
+        mMixFullScreenLoadButton = findViewById(R.id.mixfullscreen_button);
+
+        if (mMixFullScreenId == null || TextUtils.isEmpty(mMixFullScreenId)) {
+            mMixFullScreenLoadButton.setVisibility(View.GONE);
+            return;
+        }
+        mMixFullScreenLoadButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(MediationActivity.this, MixFullScreenActivity.class);
+                intent.putExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN, mMixFullScreenId);
                 startActivity(intent);
             }
         });

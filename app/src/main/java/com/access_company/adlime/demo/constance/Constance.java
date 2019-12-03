@@ -13,10 +13,15 @@ public class Constance {
     public static final String BUNDLE_TYPE_INTERSTITIAL = "interstitial";
     public static final String BUNDLE_TYPE_REWARDED = "rewarded";
 
+    public static final String BUNDLE_TYPE_MIXVIEW = "mixview";
+    public static final String BUNDLE_TYPE_MIXFULLSCREEN = "mixfullscreen";
+
     public static final String CREATIVE_BANNER_ID = "5502dfa5-6652-42fb-9e7e-215337799789";
     public static final String CREATIVE_NATIVE_ID = "5a28316a-0798-44d1-817e-119998c53643";
     public static final String CREATIVE_INTERSTITIAL_ID = "5568ac9e-be1e-48d6-90f4-726d2f71bc94";
     public static final String CREATIVE_REWARDED_ID = "9c9509b3-b4cf-4354-a515-1e754657ef6e";
+    public static final String CREATIVE_MIXVIEW_ID = "43e3423b-b841-4e9f-96a8-d7e0783362d3";
+    public static final String CREATIVE_MIXFULLSCREEN_ID  = "e21882d5-820b-4844-a428-48ba84b5ac32";
 
     public static final String SERIAL_BANNER_ID = "1ccb6f6d-8f16-426f-95e8-12726a459bb7";
     public static final String SERIAL_NATIVE_ID = "8b6cec11-2192-41e6-a99a-2c1c5dac65cc";

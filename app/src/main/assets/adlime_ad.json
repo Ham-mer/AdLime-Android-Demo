@@ -183,7 +183,9 @@
       "banner_300_250": "fbc50bd5-b44c-4144-bca1-89e52b6f7dba",
       "rewarded": "9c9509b3-b4cf-4354-a515-1e754657ef6e",
       "interstitial": "5568ac9e-be1e-48d6-90f4-726d2f71bc94",
-      "native": "5a28316a-0798-44d1-817e-119998c53643"
+      "native": "5a28316a-0798-44d1-817e-119998c53643",
+      "mixview":"43e3423b-b841-4e9f-96a8-d7e0783362d3",
+      "mixfullscreen": "e21882d5-820b-4844-a428-48ba84b5ac32"
     }
   ]
 }

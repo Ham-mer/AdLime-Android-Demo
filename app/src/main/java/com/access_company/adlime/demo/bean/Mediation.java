@@ -14,6 +14,8 @@ public class Mediation {
     private String mInterstitialId;
     private String mRewardedId;
     private String mNativeId;
+    private String mMixView;
+    private String mMixFullScreen;
 
     public Mediation() {
 
@@ -30,6 +32,9 @@ public class Mediation {
         mediation.mInterstitialId = object.optString(Constance.BUNDLE_TYPE_INTERSTITIAL);
         mediation.mNativeId = object.optString(Constance.BUNDLE_TYPE_NATIVE);
         mediation.mRewardedId = object.optString(Constance.BUNDLE_TYPE_REWARDED);
+        mediation.mMixView = object.optString(Constance.BUNDLE_TYPE_MIXVIEW);
+        mediation.mMixFullScreen = object.optString(Constance.BUNDLE_TYPE_MIXFULLSCREEN);
+
         return mediation;
     }
 
@@ -87,5 +92,13 @@ public class Mediation {
 
     public String getNativeId() {
         return mNativeId;
+    }
+
+    public String getMixViewId() {
+        return mMixView;
+    }
+
+    public String getMixFullScreen() {
+        return mMixFullScreen;
     }
 }

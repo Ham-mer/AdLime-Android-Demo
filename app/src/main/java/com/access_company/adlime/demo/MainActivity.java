@@ -35,6 +35,8 @@ public class MainActivity extends Activity {
                 intent.putExtra(Constance.BUNDLE_TYPE_REWARDED,Constance.CREATIVE_REWARDED_ID);
                 intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL,Constance.CREATIVE_INTERSTITIAL_ID);
                 intent.putExtra(Constance.BUNDLE_TYPE_NATIVE,Constance.CREATIVE_NATIVE_ID);
+                intent.putExtra(Constance.BUNDLE_TYPE_MIXVIEW, Constance.CREATIVE_MIXVIEW_ID);
+                intent.putExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN, Constance.CREATIVE_MIXFULLSCREEN_ID);
                 startActivity(intent);
             }
         });

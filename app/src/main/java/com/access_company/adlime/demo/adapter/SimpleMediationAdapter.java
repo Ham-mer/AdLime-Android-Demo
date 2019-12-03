@@ -71,9 +71,10 @@ public class SimpleMediationAdapter extends BaseAdapter {
                 intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL, mediation.getInterstitialId());
                 intent.putExtra(Constance.BUNDLE_TYPE_REWARDED, mediation.getRewardedId());
                 intent.putExtra(Constance.BUNDLE_TYPE_NATIVE, mediation.getNativeId());
+                intent.putExtra(Constance.BUNDLE_TYPE_MIXVIEW, mediation.getMixViewId());
+                intent.putExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN, mediation.getMixFullScreen());
                 intent.setClass(mContext, MediationActivity.class);
                 mContext.startActivity(intent);
-
             }
         });
         return convertView;
