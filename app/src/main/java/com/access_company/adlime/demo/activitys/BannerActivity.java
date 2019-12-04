@@ -35,8 +35,6 @@ public class BannerActivity extends BaseActivity {
         initData();
         // Init BannerAdView
         initBannerAdView();
-        AdSettings.addTestDevice("57f3d334-c486-4a1c-b231-5a5a87b3d3a0");
-
     }
 
     private void initData() {

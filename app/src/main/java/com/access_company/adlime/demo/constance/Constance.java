@@ -9,12 +9,17 @@ public class Constance {
     public static final String BUNDLE_TYPE_BANNER_300_250 = "banner_300_250";
     public static final String BUNDLE_TYPE_BANNER_468_60 = "banner_468_60";
     public static final String BUNDLE_TYPE_BANNER_728_90 = "banner_728_90";
+    public static final String BUNDLE_TYPE_BANNER = "banner";
     public static final String BUNDLE_TYPE_NATIVE = "native";
     public static final String BUNDLE_TYPE_INTERSTITIAL = "interstitial";
     public static final String BUNDLE_TYPE_REWARDED = "rewarded";
 
     public static final String BUNDLE_TYPE_MIXVIEW = "mixview";
     public static final String BUNDLE_TYPE_MIXFULLSCREEN = "mixfullscreen";
+
+    public static final String BUNDLE_TYPE_JSON = "type";
+    public static final String BUNDLE_TYPE_INFO = "info";
+
 
     public static final String CREATIVE_BANNER_ID = "5502dfa5-6652-42fb-9e7e-215337799789";
     public static final String CREATIVE_NATIVE_ID = "5a28316a-0798-44d1-817e-119998c53643";

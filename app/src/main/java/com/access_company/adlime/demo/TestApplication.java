@@ -23,6 +23,7 @@ public class TestApplication extends Application {
 
         // Set Facebook Network TestMode
         AdSettings.setTestMode(true);
+
     }
 
 }

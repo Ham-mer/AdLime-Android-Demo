@@ -14,26 +14,34 @@ public class MediationActivity extends BaseActivity {
 
     private final String TAG = "MainActivity";
 
-    private String mBannerId_320_50;
-    private String mBannerId_320_100;
-    private String mBannerId_300_250;
-    private String mBannerId_468_60;
-    private String mBannerId_728_90;
-    private String mInterstitialId;
-    private String mNativeId;
-    private String mRewardedId;
-    private String mMixViewId;
-    private String mMixFullScreenId;
+    //    private String mBannerId_320_50;
+//    private String mBannerId_320_100;
+//    private String mBannerId_300_250;
+//    private String mBannerId_468_60;
+//    private String mBannerId_728_90;
+//    private String mInterstitialId;
+//    private String mNativeId;
+//    private String mRewardedId;
+//    private String mMixViewId;
+//    private String mMixFullScreenId;
+    private String mBannerInfo;
+    private String mInterstitialInfo;
+    private String mNativeInfo;
+    private String mRewardedInfo;
+    private String mMixViewInfo;
+    private String mMixFullScreenInfo;
     private String mNetworkName;
 
     // BannerAd
-    private Button mBannerLoadButton_320_50;
-    private Button mBannerLoadButton_320_100;
-    private Button mBannerLoadButton_300_250;
-    private Button mBannerLoadButton_468_60;
-    private Button mBannerLoadButton_728_90;
+//    private Button mBannerLoadButton_320_50;
+//    private Button mBannerLoadButton_320_100;
+//    private Button mBannerLoadButton_300_250;
+//    private Button mBannerLoadButton_468_60;
+//    private Button mBannerLoadButton_728_90;
 
 
+    // BannerAd
+    private Button mBannerLoadButton;
     // NativeAd
     private Button mNativeLoadButton;
 
@@ -69,86 +77,107 @@ public class MediationActivity extends BaseActivity {
     private void initData() {
         Intent intent = getIntent();
         mNetworkName = intent.getStringExtra(Constance.BUNDLE_NETWORK_NAME);
-        mBannerId_320_50 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_320_50);
-        mBannerId_320_100 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_320_100);
-        mBannerId_300_250 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_300_250);
-        mBannerId_468_60 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_468_60);
-        mBannerId_728_90 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_728_90);
-        mInterstitialId = intent.getStringExtra(Constance.BUNDLE_TYPE_INTERSTITIAL);
-        mNativeId = intent.getStringExtra(Constance.BUNDLE_TYPE_NATIVE);
-        mRewardedId = intent.getStringExtra(Constance.BUNDLE_TYPE_REWARDED);
-        mMixViewId = intent.getStringExtra(Constance.BUNDLE_TYPE_MIXVIEW);
-        mMixFullScreenId = intent.getStringExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN);
+//        mBannerId_320_50 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_320_50);
+//        mBannerId_320_100 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_320_100);
+//        mBannerId_300_250 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_300_250);
+//        mBannerId_468_60 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_468_60);
+//        mBannerId_728_90 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_728_90);
+//        mInterstitialId = intent.getStringExtra(Constance.BUNDLE_TYPE_INTERSTITIAL);
+//        mNativeId = intent.getStringExtra(Constance.BUNDLE_TYPE_NATIVE);
+//        mRewardedId = intent.getStringExtra(Constance.BUNDLE_TYPE_REWARDED);
+//        mMixViewId = intent.getStringExtra(Constance.BUNDLE_TYPE_MIXVIEW);
+//        mMixFullScreenId = intent.getStringExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN);
+        mBannerInfo = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER);
+        mNativeInfo = intent.getStringExtra(Constance.BUNDLE_TYPE_NATIVE);
+        mInterstitialInfo = intent.getStringExtra(Constance.BUNDLE_TYPE_INTERSTITIAL);
+        mRewardedInfo = intent.getStringExtra(Constance.BUNDLE_TYPE_REWARDED);
+        mMixViewInfo = intent.getStringExtra(Constance.BUNDLE_TYPE_MIXVIEW);
+        mMixFullScreenInfo = intent.getStringExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN);
     }
 
     private void initBannerAdView() {
         // Load Ad
-        mBannerLoadButton_320_50 = findViewById(R.id.banner_button_320_50);
-        if (mBannerId_320_50 == null || TextUtils.isEmpty(mBannerId_320_50)) {
-            mBannerLoadButton_320_50.setVisibility(View.GONE);
+//        mBannerLoadButton_320_50 = findViewById(R.id.banner_button_320_50);
+//        if (mBannerId_320_50 == null || TextUtils.isEmpty(mBannerId_320_50)) {
+//            mBannerLoadButton_320_50.setVisibility(View.GONE);
+//        }
+//        mBannerLoadButton_320_50.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent();
+//                intent.setClass(MediationActivity.this, BannerActivity.class);
+//                intent.putExtra("banner", mBannerId_320_50);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        mBannerLoadButton_320_100 = findViewById(R.id.banner_button_320_100);
+//        if (mBannerLoadButton_320_100 == null || TextUtils.isEmpty(mBannerId_320_100)) {
+//            mBannerLoadButton_320_100.setVisibility(View.GONE);
+//        }
+//        mBannerLoadButton_320_100.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent();
+//                intent.setClass(MediationActivity.this, BannerActivity.class);
+//                intent.putExtra("banner", mBannerId_320_100);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        mBannerLoadButton_300_250 = findViewById(R.id.banner_button_300_250);
+//        if (mBannerId_300_250 == null || TextUtils.isEmpty(mBannerId_300_250)) {
+//            mBannerLoadButton_300_250.setVisibility(View.GONE);
+//        }
+//        mBannerLoadButton_300_250.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent();
+//                intent.setClass(MediationActivity.this, BannerActivity.class);
+//                intent.putExtra("banner", mBannerId_300_250);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        mBannerLoadButton_468_60 = findViewById(R.id.banner_button_468_60);
+//        if (mBannerId_468_60 == null || TextUtils.isEmpty(mBannerId_468_60)) {
+//            mBannerLoadButton_468_60.setVisibility(View.GONE);
+//        }
+//        mBannerLoadButton_468_60.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent();
+//                intent.setClass(MediationActivity.this, BannerActivity.class);
+//                intent.putExtra("banner", mBannerId_468_60);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        mBannerLoadButton_728_90 = findViewById(R.id.banner_button_728_90);
+//        if (mBannerId_728_90 == null || TextUtils.isEmpty(mBannerId_728_90)) {
+//            mBannerLoadButton_728_90.setVisibility(View.GONE);
+//        }
+//        mBannerLoadButton_728_90.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent();
+//                intent.setClass(MediationActivity.this, BannerActivity.class);
+//                intent.putExtra("banner", mBannerId_728_90);
+//                startActivity(intent);
+//            }
+//        });
+        mBannerLoadButton = findViewById(R.id.banner_button);
+        if (mBannerInfo == null || TextUtils.isEmpty(mBannerInfo)) {
+            mBannerLoadButton.setVisibility(View.GONE);
         }
-        mBannerLoadButton_320_50.setOnClickListener(new View.OnClickListener() {
+        mBannerLoadButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(MediationActivity.this, BannerActivity.class);
-                intent.putExtra("banner", mBannerId_320_50);
-                startActivity(intent);
-            }
-        });
-
-        mBannerLoadButton_320_100 = findViewById(R.id.banner_button_320_100);
-        if (mBannerLoadButton_320_100 == null || TextUtils.isEmpty(mBannerId_320_100)) {
-            mBannerLoadButton_320_100.setVisibility(View.GONE);
-        }
-        mBannerLoadButton_320_100.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setClass(MediationActivity.this, BannerActivity.class);
-                intent.putExtra("banner", mBannerId_320_100);
-                startActivity(intent);
-            }
-        });
-
-        mBannerLoadButton_300_250 = findViewById(R.id.banner_button_300_250);
-        if (mBannerId_300_250 == null || TextUtils.isEmpty(mBannerId_300_250)) {
-            mBannerLoadButton_300_250.setVisibility(View.GONE);
-        }
-        mBannerLoadButton_300_250.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setClass(MediationActivity.this, BannerActivity.class);
-                intent.putExtra("banner", mBannerId_300_250);
-                startActivity(intent);
-            }
-        });
-
-        mBannerLoadButton_468_60 = findViewById(R.id.banner_button_468_60);
-        if (mBannerId_468_60 == null || TextUtils.isEmpty(mBannerId_468_60)) {
-            mBannerLoadButton_468_60.setVisibility(View.GONE);
-        }
-        mBannerLoadButton_468_60.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setClass(MediationActivity.this, BannerActivity.class);
-                intent.putExtra("banner", mBannerId_468_60);
-                startActivity(intent);
-            }
-        });
-
-        mBannerLoadButton_728_90 = findViewById(R.id.banner_button_728_90);
-        if (mBannerId_728_90 == null || TextUtils.isEmpty(mBannerId_728_90)) {
-            mBannerLoadButton_728_90.setVisibility(View.GONE);
-        }
-        mBannerLoadButton_728_90.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setClass(MediationActivity.this, BannerActivity.class);
-                intent.putExtra("banner", mBannerId_728_90);
+                intent.setClass(MediationActivity.this, AdContainerActivity.class);
+                intent.putExtra(Constance.BUNDLE_TYPE_MEDIATION_NAME, mNetworkName);
+                intent.putExtra(Constance.BUNDLE_TYPE_JSON, Constance.BUNDLE_TYPE_BANNER);
+                intent.putExtra(Constance.BUNDLE_TYPE_INFO, mBannerInfo);
                 startActivity(intent);
             }
         });
@@ -156,7 +185,7 @@ public class MediationActivity extends BaseActivity {
 
     private void initNativeAd() {
         mNativeLoadButton = findViewById(R.id.native_button);
-        if (mNativeId == null || TextUtils.isEmpty(mNativeId)) {
+        if (mNativeInfo == null || TextUtils.isEmpty(mNativeInfo)) {
             mNativeLoadButton.setVisibility(View.GONE);
             return;
         }
@@ -164,8 +193,10 @@ public class MediationActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(MediationActivity.this, NativeActivity.class);
-                intent.putExtra("native", mNativeId);
+                intent.setClass(MediationActivity.this, AdContainerActivity.class);
+                intent.putExtra(Constance.BUNDLE_TYPE_MEDIATION_NAME, mNetworkName);
+                intent.putExtra(Constance.BUNDLE_TYPE_JSON, Constance.BUNDLE_TYPE_NATIVE);
+                intent.putExtra(Constance.BUNDLE_TYPE_INFO, mNativeInfo);
                 startActivity(intent);
             }
         });
@@ -175,7 +206,7 @@ public class MediationActivity extends BaseActivity {
         // Create InterstitialAd
         mInterstitialLoadButton = findViewById(R.id.interstitial_button);
 
-        if (mInterstitialId == null || TextUtils.isEmpty(mInterstitialId)) {
+        if (mInterstitialInfo == null || TextUtils.isEmpty(mInterstitialInfo)) {
             mInterstitialLoadButton.setVisibility(View.GONE);
             return;
         }
@@ -183,8 +214,10 @@ public class MediationActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(MediationActivity.this, InterstitialActivity.class);
-                intent.putExtra("interstitial", mInterstitialId);
+                intent.setClass(MediationActivity.this, AdContainerActivity.class);
+                intent.putExtra(Constance.BUNDLE_TYPE_MEDIATION_NAME, mNetworkName);
+                intent.putExtra(Constance.BUNDLE_TYPE_JSON, Constance.BUNDLE_TYPE_INTERSTITIAL);
+                intent.putExtra(Constance.BUNDLE_TYPE_INFO, mInterstitialInfo);
                 startActivity(intent);
             }
         });
@@ -195,7 +228,7 @@ public class MediationActivity extends BaseActivity {
         // Create RewardedVideoAd
         mRewardedLoadButton = findViewById(R.id.rewardedvideo_button);
 
-        if (mRewardedId == null || TextUtils.isEmpty(mRewardedId)) {
+        if (mRewardedInfo == null || TextUtils.isEmpty(mRewardedInfo)) {
             mRewardedLoadButton.setVisibility(View.GONE);
             return;
         }
@@ -203,8 +236,10 @@ public class MediationActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(MediationActivity.this, RewardedVideoActivity.class);
-                intent.putExtra("rewarded", mRewardedId);
+                intent.setClass(MediationActivity.this, AdContainerActivity.class);
+                intent.putExtra(Constance.BUNDLE_TYPE_MEDIATION_NAME, mNetworkName);
+                intent.putExtra(Constance.BUNDLE_TYPE_JSON, Constance.BUNDLE_TYPE_REWARDED);
+                intent.putExtra(Constance.BUNDLE_TYPE_INFO, mRewardedInfo);
                 startActivity(intent);
             }
         });
@@ -215,7 +250,7 @@ public class MediationActivity extends BaseActivity {
         // Create RewardedVideoAd
         mMixViewLoadButton = findViewById(R.id.mixview_button);
 
-        if (mMixViewId == null || TextUtils.isEmpty(mMixViewId)) {
+        if (mMixViewInfo == null || TextUtils.isEmpty(mMixViewInfo)) {
             mMixViewLoadButton.setVisibility(View.GONE);
             return;
         }
@@ -223,8 +258,10 @@ public class MediationActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(MediationActivity.this, MixViewActivity.class);
-                intent.putExtra(Constance.BUNDLE_TYPE_MIXVIEW, mMixViewId);
+                intent.setClass(MediationActivity.this, AdContainerActivity.class);
+                intent.putExtra(Constance.BUNDLE_TYPE_MEDIATION_NAME, mNetworkName);
+                intent.putExtra(Constance.BUNDLE_TYPE_JSON, Constance.BUNDLE_TYPE_MIXVIEW);
+                intent.putExtra(Constance.BUNDLE_TYPE_INFO, mMixViewInfo);
                 startActivity(intent);
             }
         });
@@ -235,7 +272,7 @@ public class MediationActivity extends BaseActivity {
         // Create RewardedVideoAd
         mMixFullScreenLoadButton = findViewById(R.id.mixfullscreen_button);
 
-        if (mMixFullScreenId == null || TextUtils.isEmpty(mMixFullScreenId)) {
+        if (mMixFullScreenInfo == null || TextUtils.isEmpty(mMixFullScreenInfo)) {
             mMixFullScreenLoadButton.setVisibility(View.GONE);
             return;
         }
@@ -243,8 +280,10 @@ public class MediationActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(MediationActivity.this, MixFullScreenActivity.class);
-                intent.putExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN, mMixFullScreenId);
+                intent.setClass(MediationActivity.this, AdContainerActivity.class);
+                intent.putExtra(Constance.BUNDLE_TYPE_MEDIATION_NAME, mNetworkName);
+                intent.putExtra(Constance.BUNDLE_TYPE_JSON, Constance.BUNDLE_TYPE_MIXFULLSCREEN);
+                intent.putExtra(Constance.BUNDLE_TYPE_INFO, mMixFullScreenInfo);
                 startActivity(intent);
             }
         });
