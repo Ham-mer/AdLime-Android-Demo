@@ -1,0 +1,49 @@
+{
+  "mediation": [
+    {
+      "adName": "Serial",
+      "banner": {
+        "banner": "1ccb6f6d-8f16-426f-95e8-12726a459bb7"
+      },
+      "rewarded": {
+        "rewarded": "43f9911a-4792-445c-b346-1eb5299423f2"
+      },
+      "interstitial": {
+        "interstitial": "0fed366d-5dfd-4982-af3e-b8f94f4fa0bd"
+      },
+      "native": {
+        "native": "8b6cec11-2192-41e6-a99a-2c1c5dac65cc"
+      }
+    },
+    {
+      "adName": "Parallel",
+      "banner": {
+        "banner": "e00d766f-d360-41a3-a051-0629551fdf05"
+      },
+      "rewarded": {
+        "rewarded": "5b1ebd4e-e6ae-4805-8637-a4af8e6b4aee"
+      },
+      "interstitial": {
+        "interstitial": "871f3ab9-a105-4d75-b68f-eec3c463f5c4"
+      },
+      "native": {
+        "native": "22d057eb-2b13-4301-be3d-dd7e8fbc4686"
+      }
+    },
+    {
+      "adName": "Shuffle",
+      "banner": {
+        "banner": "7e60151f-b77c-4929-add9-46dc8a5fec9f"
+      },
+      "rewarded": {
+        "rewarded": "0b4b708d-9bcd-4c12-899d-aa576956aa8c"
+      },
+      "interstitial": {
+        "interstitial": "e774cf89-c838-40e0-ae60-c18fbdaca6ff"
+      },
+      "native": {
+        "native": "045db65e-81ef-4a89-b64b-b9d4db762012"
+      }
+    }
+  ]
+}

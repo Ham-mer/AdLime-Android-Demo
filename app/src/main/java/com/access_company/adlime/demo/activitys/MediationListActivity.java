@@ -34,7 +34,7 @@ public class MediationListActivity extends BaseActivity {
 
     private void initData() {
         String info = Utils.getAssetsContent(MediationListActivity.this, "adlime_ad.json");
-        mInfoList = Utils.getMediation(info);
+        mInfoList = Utils.getSortedMediation(info);
     }
 
 }

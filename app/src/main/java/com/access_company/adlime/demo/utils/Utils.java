@@ -1,10 +1,12 @@
 package com.access_company.adlime.demo.utils;
 
 import android.content.Context;
+import android.content.Intent;
 import android.text.TextUtils;
 import android.util.Log;
 
 import com.access_company.adlime.demo.bean.Mediation;
+import com.access_company.adlime.demo.constance.Constance;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -42,7 +44,7 @@ public class Utils {
         return null;
     }
 
-//    public static HashMap<String, Mediation> getMediation(String info) {
+//    public static HashMap<String, Mediation> getSortedMediation(String info) {
 //        HashMap<String, Mediation> map = new HashMap<>();
 //        try {
 //            JSONObject object = new JSONObject(info);
@@ -60,21 +62,42 @@ public class Utils {
 //        return map;
 //    }
 
-    public static List<Map.Entry<String, Mediation>> getMediation(String info) {
+    public static Mediation getMediationSingle(String info) {
+        try {
+            JSONObject object = new JSONObject(info);
+            JSONArray array = object.optJSONArray("mediation");
+            JSONObject mediationJson = array.getJSONObject(0);
+            Mediation mediation = Mediation.fromJson(mediationJson);
+            return mediation;
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static HashMap<String, Mediation> getMediationMap(String info) {
         HashMap<String, Mediation> map = new HashMap<>();
         try {
             JSONObject object = new JSONObject(info);
             JSONArray array = object.optJSONArray("mediation");
             int size = array.length();
             map.clear();
-            for(int i=0; i<size; i++) {
+            for (int i = 0; i < size; i++) {
                 JSONObject item = array.getJSONObject(i);
                 Mediation mediation = Mediation.fromJson(item);
                 map.put(mediation.getmName(), mediation);
             }
+            return map;
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
+        return null;
+    }
+
+    public static List<Map.Entry<String, Mediation>> getSortedMediation(String info) {
+        HashMap<String, Mediation>  map = getMediationMap(info);
         return sortMediation(map);
     }
 
@@ -88,5 +111,22 @@ public class Utils {
             }
         });
         return list;
+    }
+
+    public static Intent getBaseIntent(Mediation mediation) {
+        Intent intent = new Intent();
+        if (mediation.getBannerJson() != null) {
+            intent.putExtra(Constance.BUNDLE_TYPE_BANNER, mediation.getBannerJson().toString());
+        }
+        if (mediation.getInterstitalJson() != null) {
+            intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL, mediation.getInterstitalJson().toString());
+        }
+        if (mediation.getNativeJson() != null) {
+            intent.putExtra(Constance.BUNDLE_TYPE_NATIVE, mediation.getNativeJson().toString());
+        }
+        if (mediation.getRewardedVideoJson() != null) {
+            intent.putExtra(Constance.BUNDLE_TYPE_REWARDED, mediation.getRewardedVideoJson().toString());
+        }
+        return intent;
     }
 }

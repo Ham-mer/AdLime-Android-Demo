@@ -9,7 +9,9 @@ import android.widget.TextView;
 import com.access_company.adlime.demo.activitys.LoadModeActivity;
 import com.access_company.adlime.demo.activitys.MediationActivity;
 import com.access_company.adlime.demo.activitys.MediationListActivity;
+import com.access_company.adlime.demo.bean.Mediation;
 import com.access_company.adlime.demo.constance.Constance;
+import com.access_company.adlime.demo.utils.Utils;
 
 public class MainActivity extends Activity {
     @Override
@@ -26,17 +28,27 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.setClass(MainActivity.this, MediationActivity.class);
-                intent.putExtra(Constance.BUNDLE_NETWORK_NAME, "Base Test");
-                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_320_50,Constance.CREATIVE_BANNER_ID);
-                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_320_100,Constance.CREATIVE_BANNER_ID);
-                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_300_250,Constance.CREATIVE_BANNER_ID);
-                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_468_60,Constance.CREATIVE_BANNER_ID);
-                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_728_90,Constance.CREATIVE_BANNER_ID);
-                intent.putExtra(Constance.BUNDLE_TYPE_REWARDED,Constance.CREATIVE_REWARDED_ID);
-                intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL,Constance.CREATIVE_INTERSTITIAL_ID);
-                intent.putExtra(Constance.BUNDLE_TYPE_NATIVE,Constance.CREATIVE_NATIVE_ID);
-                intent.putExtra(Constance.BUNDLE_TYPE_MIXVIEW, Constance.CREATIVE_MIXVIEW_ID);
-                intent.putExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN, Constance.CREATIVE_MIXFULLSCREEN_ID);
+                Mediation mediation = Utils.getMediationSingle(Utils.getAssetsContent(MainActivity.this, "base_ad.json"));
+                intent.putExtra(Constance.BUNDLE_NETWORK_NAME, "Base_Test");
+                if (mediation.getBannerJson() != null) {
+                    intent.putExtra(Constance.BUNDLE_TYPE_BANNER, mediation.getBannerJson().toString());
+                }
+                if (mediation.getInterstitalJson() != null) {
+                    intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL, mediation.getInterstitalJson().toString());
+                }
+                if (mediation.getNativeJson() != null) {
+                    intent.putExtra(Constance.BUNDLE_TYPE_NATIVE, mediation.getNativeJson().toString());
+                }
+                if (mediation.getRewardedVideoJson() != null) {
+                    intent.putExtra(Constance.BUNDLE_TYPE_REWARDED, mediation.getRewardedVideoJson().toString());
+                }
+                if (mediation.getMixViewJson() != null) {
+                    intent.putExtra(Constance.BUNDLE_TYPE_MIXVIEW, mediation.getMixViewJson().toString());
+                }
+                if (mediation.getMixFullScreenJson() != null) {
+                    intent.putExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN, mediation.getMixFullScreenJson().toString());
+                }
+                intent.setClass(MainActivity.this, MediationActivity.class);
                 startActivity(intent);
             }
         });
