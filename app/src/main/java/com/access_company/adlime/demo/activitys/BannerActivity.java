@@ -13,7 +13,6 @@ import com.access_company.adlime.core.api.ad.BannerAdView;
 import com.access_company.adlime.core.api.listener.AdError;
 import com.access_company.adlime.core.api.listener.SimpleAdListener;
 import com.access_company.adlime.demo.R;
-import com.facebook.ads.AdSettings;
 
 
 public class BannerActivity extends BaseActivity {
@@ -67,8 +66,6 @@ public class BannerActivity extends BaseActivity {
             @Override
             public void onAdLoaded() {
                 Log.d(TAG, "BannerAdView onAdLoaded");
-                mContainer.removeAllViews();
-                mContainer.addView(mBannerAdView);
             }
 
             @Override
@@ -91,6 +88,6 @@ public class BannerActivity extends BaseActivity {
                 Log.d(TAG, "BannerAdView onAdFailedToLoad: " + adError.toString());
             }
         });
-
+        mContainer.addView(mBannerAdView);
     }
 }
