@@ -51,7 +51,7 @@ public class RewardedVideoActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 if (mRewardedVideoAd.isReady()) {
-                    mRewardedVideoAd.show();
+                    mRewardedVideoAd.show(RewardedVideoActivity.this);
                 }
                 mShowButton.setEnabled(false);
             }
@@ -113,13 +113,7 @@ public class RewardedVideoActivity extends BaseActivity {
                 LogUtil.d(TAG, "RewardedVideoAd onRewardFailed");
             }
         });
-
-
-
-
     }
-
-
 
     private void initData() {
         Intent intent = getIntent();

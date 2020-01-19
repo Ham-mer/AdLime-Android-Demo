@@ -90,7 +90,7 @@ public class InterstitialActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 if (mInterstitialAd.isReady()) {
-                    mInterstitialAd.show();
+                    mInterstitialAd.show(InterstitialActivity.this);
                 }
                 mShowButton.setEnabled(false);
             }
