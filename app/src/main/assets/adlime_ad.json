@@ -280,7 +280,7 @@
       }
     },
     {
-      "adName": "Mopub",
+      "adName": "MoPub",
       "banner": {
         "banner_320_50": "fa4ed654-95f9-4135-98e0-88001498836e",
         "banner_300_250": "30df9771-c372-45e1-9172-d71dedd9eaa7"
@@ -334,39 +334,21 @@
       }
     },
     {
+      "adName": "Pangle",
+      "rewarded": {
+        "rewarded": "3871e42d-0e5d-4bec-bfe9-de7d4ec7d6fb"
+      },
+      "interstitial": {
+        "interstitial": "2207389f-5fe4-4dca-9a8c-85c8897991fe"
+      }
+    },
+    {
       "adName": "Tapjoy",
       "rewarded": {
         "rewarded": "45d81515-0c07-430f-bce6-577951c4862c"
       },
       "interstitial": {
         "interstitial": "559ef26b-8b08-4855-8b47-3436101d92dc"
-      }
-    },
-    {
-      "adName": "Tiktok",
-      "banner": {
-        "banner_320_50": "a68f5be9-7b92-4436-9ca0-90291f66ba90",
-        "banner_300_250": "ad9dde3d-7274-484e-bf78-31a487e8682b"
-      },
-      "rewarded": {
-        "rewarded": "9cd47dd7-b5f3-4ab8-a74f-8f9c8c6ca39d"
-      },
-      "interstitial": {
-        "interstitial": "c88b9ae1-81df-452e-ad86-40e8ba2dd8dc"
-      },
-      "native": {
-        "native": "0e3227ac-6782-40c1-ada4-8970369a742c"
-      },
-      "mixview": {
-        "MixView_Native": "c633b368-f332-41ba-8cf8-7fb346f90780",
-        "MixView_Banner_320*50": "6c2517e8-c61a-4d6b-b1f6-18eb9bffca56",
-        "MixView_Banner_300*250": "e9a5ec8b-15b8-4791-8ded-d49aa9e7650e"
-      },
-      "mixfullscreen": {
-        "MixFull_Native": "04968de3-fb55-42d9-a66f-b2a682659fd8",
-        "MixFull_Banner_320*50": "8436f636-33d6-432b-ae6e-8fb8a217f052",
-        "MixFull_Banner_300*250": "f777408a-7b0f-4080-859a-9511965cdadb",
-        "MixFull_Interstitial": "49381beb-b0e3-474c-bbd7-3fa6c32bf264"
       }
     },
     {
