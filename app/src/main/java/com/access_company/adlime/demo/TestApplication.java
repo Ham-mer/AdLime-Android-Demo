@@ -10,6 +10,7 @@ public class TestApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
+        AdLime.getDefault().setTestMode(true);
         AdLime.getDefault().setGdprConsent(true);
         // Show Log
         AdLime.getDefault().setLogEnable(true);

@@ -2,16 +2,17 @@
     package="com.access_company.adlime.demo">
 
     <application
+        android:name=".TestApplication"
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:name=".TestApplication"
         android:networkSecurityConfig="@xml/network_security_config"
-        android:hardwareAccelerated="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -22,54 +23,55 @@
 
         <activity
             android:name="com.access_company.adlime.demo.activitys.MediationListActivity"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name="com.access_company.adlime.demo.activitys.LoadModeActivity"
-            android:screenOrientation="portrait">
-        </activity>
+        <activity
+            android:name="com.access_company.adlime.demo.activitys.LoadModeActivity"
+            android:screenOrientation="portrait"></activity>
 
         <activity
             android:name="com.access_company.adlime.demo.activitys.MediationActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
 
-        <activity android:name="com.access_company.adlime.demo.activitys.BannerActivity"
+        <activity
+            android:name="com.access_company.adlime.demo.activitys.BannerActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.access_company.adlime.demo.activitys.NativeActivity"
+        <activity
+            android:name="com.access_company.adlime.demo.activitys.NativeActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.access_company.adlime.demo.activitys.InterstitialActivity"
+        <activity
+            android:name="com.access_company.adlime.demo.activitys.InterstitialActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.access_company.adlime.demo.activitys.RewardedVideoActivity"
+        <activity
+            android:name="com.access_company.adlime.demo.activitys.RewardedVideoActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.access_company.adlime.demo.activitys.MixViewActivity"
+        <activity
+            android:name="com.access_company.adlime.demo.activitys.MixViewActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.access_company.adlime.demo.activitys.MixFullScreenActivity"
+        <activity
+            android:name="com.access_company.adlime.demo.activitys.MixFullScreenActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.access_company.adlime.demo.activitys.AdContainerActivity"
+        <activity
+            android:name="com.access_company.adlime.demo.activitys.AdContainerActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
-
-        <provider
-            android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
-            android:authorities="${applicationId}.TTMultiProvider"
-            android:exported="false" />
 
         <meta-data
-        android:name="com.google.android.gms.ads.APPLICATION_ID"
-        android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
 
         <meta-data
             android:name="applovin.sdk.key"
@@ -80,6 +82,8 @@
             android:name="app_license"
             android:value="162025bb97c64772b2288919d51b0250" />
 
-        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
     </application>
 </manifest>
