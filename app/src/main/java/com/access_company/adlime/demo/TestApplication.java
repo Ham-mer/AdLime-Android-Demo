@@ -16,8 +16,5 @@ public class TestApplication extends Application {
         AdLime.getDefault().setLogEnable(true);
         // Init With AppId
         AdLime.getDefault().init(this, "d13be96e-e172-4645-b761-4827a0ae8c0c");
-
-        // Set Facebook Network TestMode
-        AdSettings.setTestMode(true);
     }
 }

@@ -64,16 +64,6 @@ public class SimpleMediationAdapter extends BaseAdapter {
                 Mediation mediation = mListInfo.get(position).getValue();
                 Intent intent = new Intent();
                 intent.putExtra(Constance.BUNDLE_NETWORK_NAME, mediation.getmName());
-//                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_320_50, mediation.getBannerId_320_50());
-//                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_320_100, mediation.getBannerId_320_100());
-//                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_300_250, mediation.getBannerId_300_250());
-//                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_468_60, mediation.getBannerId_468_60());
-//                intent.putExtra(Constance.BUNDLE_TYPE_BANNER_728_90, mediation.getBannerId_728_90());
-//                intent.putExtra(Constance.BUNDLE_TYPE_INTERSTITIAL, mediation.getInterstitialId());
-//                intent.putExtra(Constance.BUNDLE_TYPE_REWARDED, mediation.getRewardedId());
-//                intent.putExtra(Constance.BUNDLE_TYPE_NATIVE, mediation.getNativeId());
-//                intent.putExtra(Constance.BUNDLE_TYPE_MIXVIEW, mediation.getMixViewId());
-//                intent.putExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN, mediation.getMixFullScreen());
                 if (mediation.getBannerJson() != null) {
                     intent.putExtra(Constance.BUNDLE_TYPE_BANNER, mediation.getBannerJson().toString());
                 }

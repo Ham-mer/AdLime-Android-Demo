@@ -77,16 +77,6 @@ public class MediationActivity extends BaseActivity {
     private void initData() {
         Intent intent = getIntent();
         mNetworkName = intent.getStringExtra(Constance.BUNDLE_NETWORK_NAME);
-//        mBannerId_320_50 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_320_50);
-//        mBannerId_320_100 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_320_100);
-//        mBannerId_300_250 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_300_250);
-//        mBannerId_468_60 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_468_60);
-//        mBannerId_728_90 = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER_728_90);
-//        mInterstitialId = intent.getStringExtra(Constance.BUNDLE_TYPE_INTERSTITIAL);
-//        mNativeId = intent.getStringExtra(Constance.BUNDLE_TYPE_NATIVE);
-//        mRewardedId = intent.getStringExtra(Constance.BUNDLE_TYPE_REWARDED);
-//        mMixViewId = intent.getStringExtra(Constance.BUNDLE_TYPE_MIXVIEW);
-//        mMixFullScreenId = intent.getStringExtra(Constance.BUNDLE_TYPE_MIXFULLSCREEN);
         mBannerInfo = intent.getStringExtra(Constance.BUNDLE_TYPE_BANNER);
         mNativeInfo = intent.getStringExtra(Constance.BUNDLE_TYPE_NATIVE);
         mInterstitialInfo = intent.getStringExtra(Constance.BUNDLE_TYPE_INTERSTITIAL);
