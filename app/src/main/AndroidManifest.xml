@@ -7,7 +7,7 @@
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:networkSecurityConfig="@xml/network_security_config"
+        android:networkSecurityConfig="@xml/pangle_network_security_config"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
@@ -23,11 +23,11 @@
 
         <activity
             android:name="com.access_company.adlime.demo.activitys.MediationListActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
 
         <activity
             android:name="com.access_company.adlime.demo.activitys.LoadModeActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
 
         <activity
             android:name="com.access_company.adlime.demo.activitys.MediationActivity"
@@ -75,7 +75,7 @@
 
         <meta-data
             android:name="applovin.sdk.key"
-            android:value="aqULsa4oR7H9uQJrVI4-hGyFMgAc_RwZFPv6-zvQ5AZzbup5At4t806UgH6fi1DzQ74O5zpA8N8kGyqRquIyuO" />
+            android:value="qTA2uuo2zUQLXHPGDPooTJLZprJIiR6HDcHEgaJq24ErXVwNTqt73MlOFEssXOL9Q1RIFDlR1136N8uhTlthKc" />
 
         <!-- DU Ad Platform 配置 -->
         <meta-data
