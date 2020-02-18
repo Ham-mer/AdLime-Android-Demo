@@ -54,7 +54,7 @@ public class MixViewActivity extends BaseActivity {
                 mShowButton.setEnabled(false);
                 // Add MixViewAd AdView To UI
                 View adView = mMixViewAd.getAdView();
-                if (adView != null) {
+                if (adView != null && adView != mContainer.getChildAt(0)) {
                     mContainer.removeAllViews();
                     mContainer.addView(adView);
                 }

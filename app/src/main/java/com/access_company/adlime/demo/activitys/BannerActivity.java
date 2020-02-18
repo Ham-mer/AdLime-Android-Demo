@@ -6,7 +6,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.access_company.adlime.core.api.ad.BannerAdView;
@@ -20,7 +20,7 @@ public class BannerActivity extends BaseActivity {
     private final String TAG = "BannerActivity";
 
     private Button mLoadButton;
-    private FrameLayout mContainer;
+    private LinearLayout mContainer;
     private String mBannerId;
 
     private BannerAdView mBannerAdView;
