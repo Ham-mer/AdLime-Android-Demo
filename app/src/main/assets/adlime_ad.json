@@ -323,28 +323,29 @@
     {
       "adName": "Nend",
       "banner": {
-        "banner_320_50": "25ba41df-c69b-45f4-a1fd-d25221d3e9d4",
-        "banner_300_250": "e6c9e244-d2fb-4579-bd38-f04e0fdd1175"
+        "Banner 320*50": "25ba41df-c69b-45f4-a1fd-d25221d3e9d4",
+        "Banner 300*250": "e6c9e244-d2fb-4579-bd38-f04e0fdd1175"
       },
       "rewarded": {
-        "rewarded": "d794a8f0-b5a3-4bc2-9530-f40893a3f851"
+        "RewardedVideo": "d794a8f0-b5a3-4bc2-9530-f40893a3f851"
       },
       "interstitial": {
-        "interstitial": "9d499190-911a-4b1a-8734-23c2de9a9613"
+        "Interstitial": "9d499190-911a-4b1a-8734-23c2de9a9613"
       },
       "native": {
-        "native": "81d6e364-6d44-46c2-bbc9-539dbdc3bbfa"
+        "Image Native": "d7a01bb6-745f-4dab-a86d-fe856a23abc9",
+        "Video Native": "81d6e364-6d44-46c2-bbc9-539dbdc3bbfa"
       },
       "mixview": {
-        "MixView_Native": "e17a81e5-213d-4671-9eeb-ef6bd6d46d52",
-        "MixView_Banner_320*50": "e870107d-22ba-4f52-aefd-0c51fe360976",
-        "MixView_Banner_300*250": "61e9945c-519b-4083-9bae-06d5a0b0334f"
+        "MixView Native": "e17a81e5-213d-4671-9eeb-ef6bd6d46d52",
+        "MixView Banner 320*50": "e870107d-22ba-4f52-aefd-0c51fe360976",
+        "MixView Banner 300*250": "61e9945c-519b-4083-9bae-06d5a0b0334f"
       },
       "mixfullscreen": {
-        "MixFull_Native": "90304fa0-6694-49fc-8092-d6ee0e7a881d",
-        "MixFull_Banner_320*50": "57872b7a-b4ae-4bd4-b855-ca40571af90b",
-        "MixFull_Banner_300*250": "d6c43bd7-7b7b-4923-8672-3b1f300d2cd1",
-        "MixFull_Interstitial": "8465b93f-3f17-4a37-9fad-8fdbb778f2c3"
+        "MixFullScreen Native": "90304fa0-6694-49fc-8092-d6ee0e7a881d",
+        "MixFullScreen Banner 320*50": "57872b7a-b4ae-4bd4-b855-ca40571af90b",
+        "MixFullScreen Banner 300*250": "d6c43bd7-7b7b-4923-8672-3b1f300d2cd1",
+        "MixFullScreen Interstitial": "8465b93f-3f17-4a37-9fad-8fdbb778f2c3"
       }
     },
     {
