@@ -2,322 +2,322 @@
   "mediation": [{
     "adName": "AdMob",
     "banner": {
-      "banner_320_50": "ea6fe45b-c7a9-4dcd-aab8-89d8fdb4a93c",
-      "banner_300_250": "1a15e85a-f50f-4d11-99ca-31b14dc97532"
+      "Banner 320*50": "ea6fe45b-c7a9-4dcd-aab8-89d8fdb4a93c",
+      "Banner 300*250": "1a15e85a-f50f-4d11-99ca-31b14dc97532"
     },
     "rewarded": {
-      "rewarded": "199ad96c-2ab1-43f3-8f7a-c00c99b5f224"
+      "RewardedVideo": "199ad96c-2ab1-43f3-8f7a-c00c99b5f224"
     },
     "interstitial" : {
-      "interstitial": "49d0e6fa-e527-42f0-9b1b-770a5b333beb"
+      "Interstitial": "49d0e6fa-e527-42f0-9b1b-770a5b333beb"
     },
     "native": {
-      "native": "304af8d5-8f88-4b3c-a783-aaf3d7d88db4"
+      "Native": "304af8d5-8f88-4b3c-a783-aaf3d7d88db4"
     },
     "mixview": {
-      "MixView_Native": "71b95bbb-cc6c-48cf-810b-b7a532d1fdfc",
-      "MixView_Banner_320*50": "cb28be5f-89ac-47e8-b8be-cbd495f225ec",
-      "MixView_Banner_300*250": "3a432270-3d78-4dca-ab76-ae007e2c974b"
+      "MixView Native": "71b95bbb-cc6c-48cf-810b-b7a532d1fdfc",
+      "MixView Banner 320*50": "cb28be5f-89ac-47e8-b8be-cbd495f225ec",
+      "MixView Banner 300*250": "3a432270-3d78-4dca-ab76-ae007e2c974b"
     },
     "mixfullscreen": {
-      "MixFull_Native": "30860251-6c32-4d32-8c01-1fc828d92e73",
-      "MixFull_Banner_320*50": "284050a4-865a-42ab-8e60-1a0f72c00fd3",
-      "MixFull_Banner_300*250": "ff33ce05-4a98-416c-88ff-d7cdf4e39ecb",
-      "MixFull_Interstitial": "6b8ed887-75fb-432b-b240-13d701e54a31"
+      "MixFullScreen Native": "30860251-6c32-4d32-8c01-1fc828d92e73",
+      "MixFullScreen Banner 320*50": "284050a4-865a-42ab-8e60-1a0f72c00fd3",
+      "MixFullScreen Banner 300*250": "ff33ce05-4a98-416c-88ff-d7cdf4e39ecb",
+      "MixFullScreen Interstitial": "6b8ed887-75fb-432b-b240-13d701e54a31"
     }
   },
     {
       "adName": "AdColony",
       "banner": {
-        "banner_320_50": ""
+        "Banner 320*50": ""
       },
       "rewarded": {
-        "rewarded": "f6a61160-a912-4dbe-b5ef-67e2efe5964a"
+        "RewardedVideo": "f6a61160-a912-4dbe-b5ef-67e2efe5964a"
       },
       "interstitial": {
-        "interstitial": "5f3d5131-5bd0-4cea-873f-dbb91c701e93"
+        "Interstitial": "5f3d5131-5bd0-4cea-873f-dbb91c701e93"
       }
     },
     {
       "adName": "AdGeneration",
       "banner": {
-        "banner_320_50": "848d76be-4295-43aa-a128-19327a5d95b9",
-        "banner_300_250": "195db746-30e5-4c7c-b687-de278531ae03"
+        "Banner 320*50": "848d76be-4295-43aa-a128-19327a5d95b9",
+        "Banner 300*250": "195db746-30e5-4c7c-b687-de278531ae03"
       },
       "interstitial": {
-        "interstitial": "1df516af-a62f-49ba-9bc6-6ebf032e811e"
+        "Interstitial": "1df516af-a62f-49ba-9bc6-6ebf032e811e"
       },
       "native": {
-        "native": "57d08adf-1358-486e-887f-02a48d7d857a"
+        "Native": "57d08adf-1358-486e-887f-02a48d7d857a"
       }
     },
     {
       "adName": "Amazon",
       "banner": {
-        "banner_320_50": "267cf6e3-a198-4166-8dac-8fd21c9cde46",
-        "banner_300_250": "ab56f34c-6671-40cb-994a-14484521cbb1"
+        "Banner 320*50": "267cf6e3-a198-4166-8dac-8fd21c9cde46",
+        "Banner 300*250": "ab56f34c-6671-40cb-994a-14484521cbb1"
       },
       "interstitial": {
-        "interstitial": "f30a94aa-40ec-463a-afbe-2fc1781bc999"
+        "Interstitial": "f30a94aa-40ec-463a-afbe-2fc1781bc999"
       }
     },
     {
       "adName": "AppLovin",
       "banner": {
-        "banner_320_50": "da369915-d1b6-4394-916f-b34090def98b",
-        "banner_300_250": "da369915-d1b6-4394-916f-b34090def98b"
+        "Banner 320*50": "da369915-d1b6-4394-916f-b34090def98b",
+        "Banner 300*250": "da369915-d1b6-4394-916f-b34090def98b"
       },
       "rewarded": {
-        "rewarded": "b03099ed-ac2b-43d7-82ff-1a7b19d17de9"
+        "RewardedVideo": "b03099ed-ac2b-43d7-82ff-1a7b19d17de9"
       },
       "interstitial": {
-        "interstitial": "63d5dbd8-b9ab-4a7a-86d9-406826953da8"
+        "Interstitial": "63d5dbd8-b9ab-4a7a-86d9-406826953da8"
       },
       "native": {
-        "native": "5816ab14-be45-4fb4-a1c0-510d7395a1c5"
+        "Native": "5816ab14-be45-4fb4-a1c0-510d7395a1c5"
       },
       "mixview": {
-        "MixView_Native": "82c85014-dd96-4660-9260-b03ccd27bb89",
-        "MixView_Banner_320*50": "280037d0-c206-410b-8dda-06a9da3b09b1",
-        "MixView_Banner_300*250": "378d85af-da2a-4e04-9d6d-35e574b7f596"
+        "MixView Native": "82c85014-dd96-4660-9260-b03ccd27bb89",
+        "MixView Banner 320*50": "280037d0-c206-410b-8dda-06a9da3b09b1",
+        "MixView Banner 300*250": "378d85af-da2a-4e04-9d6d-35e574b7f596"
       },
       "mixfullscreen": {
-        "MixFull_Native": "7a824b84-f39c-4e06-a649-4290c1214374",
-        "MixFull_Banner_320*50": "086f40e9-dcf7-44d8-ae0e-ae45dd080727",
-        "MixFull_Banner_300*250": "02d30bab-0c4a-4847-8d40-405125470953",
-        "MixFull_Interstitial": "8bf8de24-972b-4c25-b8ec-38c48baabb6c"
+        "MixFullScreen Native": "7a824b84-f39c-4e06-a649-4290c1214374",
+        "MixFullScreen Banner 320*50": "086f40e9-dcf7-44d8-ae0e-ae45dd080727",
+        "MixFullScreen Banner 300*250": "02d30bab-0c4a-4847-8d40-405125470953",
+        "MixFullScreen Interstitial": "8bf8de24-972b-4c25-b8ec-38c48baabb6c"
       }
     },
     {
       "adName": "ChartBoost",
       "rewarded": {
-        "rewarded": "18df2077-3a2f-4318-9551-afa5e2c65b14"
+        "RewardedVideo": "18df2077-3a2f-4318-9551-afa5e2c65b14"
       },
       "interstitial": {
-        "interstitial": "b235e260-5815-406d-afbe-276a23aa369a"
+        "Interstitial": "b235e260-5815-406d-afbe-276a23aa369a"
       }
     },
     {
       "adName": "Criteo",
       "banner": {
-        "banner_320_50": "a57a4c37-bc7d-435b-921a-ed73f4413c86",
-        "banner_300_250": "51a2f6cd-bd97-40c9-9832-b7e9a01a9ac7"
+        "Banner 320*50": "a57a4c37-bc7d-435b-921a-ed73f4413c86",
+        "Banner 300*250": "51a2f6cd-bd97-40c9-9832-b7e9a01a9ac7"
       },
       "interstitial": {
-        "interstitial": "28643335-0fef-4268-a1c5-06ecc956a67f"
+        "Interstitial": "28643335-0fef-4268-a1c5-06ecc956a67f"
       },
       "mixview": {
-        "MixView_Banner_320*50": "e21c1352-cc5d-4fc6-8d1d-1ed88a1feaf6",
-        "MixView_Banner_300*250": "ca6ea99d-47ed-4313-8740-10de42c570ce"
+        "MixView Banner 320*50": "e21c1352-cc5d-4fc6-8d1d-1ed88a1feaf6",
+        "MixView Banner 300*250": "ca6ea99d-47ed-4313-8740-10de42c570ce"
       },
       "mixfullscreen": {
-        "MixFull_Banner_320*50": "0cb8cf8f-1703-42c2-a11d-2a65315029f3",
-        "MixFull_Banner_300*250": "419c7160-8f8f-47ac-a66c-0d6d59b5a895",
-        "MixFull_Interstitial": "e05757d2-3070-4dc8-be11-22a3bd0e0ca1"
+        "MixFullScreen Banner 320*50": "0cb8cf8f-1703-42c2-a11d-2a65315029f3",
+        "MixFullScreen Banner 300*250": "419c7160-8f8f-47ac-a66c-0d6d59b5a895",
+        "MixFullScreen Interstitial": "e05757d2-3070-4dc8-be11-22a3bd0e0ca1"
       }
     },
     {
       "adName": "DFP",
       "banner": {
-        "banner_320_50": "617e49c3-4d6e-4b69-806e-776873fa0c72",
-        "banner_300_250": "28faadf5-cd14-437f-90bf-b48810d3e570"
+        "Banner 320*50": "617e49c3-4d6e-4b69-806e-776873fa0c72",
+        "Banner 300*250": "28faadf5-cd14-437f-90bf-b48810d3e570"
       },
       "rewarded": {
-        "rewarded": "ebe8be54-0e95-49ff-9faf-aba17c43b548"
+        "RewardedVideo": "ebe8be54-0e95-49ff-9faf-aba17c43b548"
       },
       "interstitial": {
-        "interstitial": "d6426b6e-9e87-4e73-9634-2fae137fd128"
+        "Interstitial": "d6426b6e-9e87-4e73-9634-2fae137fd128"
       },
       "native": {
-        "native": "ee27ab16-772d-43e1-acbb-96e87ee0f0c4"
+        "Native": "ee27ab16-772d-43e1-acbb-96e87ee0f0c4"
       },
       "mixview": {
-        "MixView_Native": "adf15f3d-84c6-459d-8942-a8239cd6db9c",
-        "MixView_Banner_320*50": "c504e99c-1ac0-4a9a-9c35-9cdef0e53b65",
-        "MixView_Banner_300*250": "3cb9fc81-ceab-4e5a-aac2-4c37bf571877"
+        "MixView Native": "adf15f3d-84c6-459d-8942-a8239cd6db9c",
+        "MixView Banner 320*50": "c504e99c-1ac0-4a9a-9c35-9cdef0e53b65",
+        "MixView Banner 300*250": "3cb9fc81-ceab-4e5a-aac2-4c37bf571877"
       },
       "mixfullscreen": {
-        "MixFull_Native": "c8ee76c1-58d8-44f9-a54e-0a62cdd8fee6",
-        "MixFull_Banner_320*50": "139020c6-c083-4d73-8b58-dc93def552dc",
-        "MixFull_Banner_300*250": "72d2c5c6-0247-4da6-987d-323cb72bfa97",
-        "MixFull_Interstitial": "747a72c2-1b34-4ddd-9cb4-61026ca2b8a9"
+        "MixFullScreen Native": "c8ee76c1-58d8-44f9-a54e-0a62cdd8fee6",
+        "MixFullScreen Banner 320*50": "139020c6-c083-4d73-8b58-dc93def552dc",
+        "MixFullScreen Banner 300*250": "72d2c5c6-0247-4da6-987d-323cb72bfa97",
+        "MixFullScreen Interstitial": "747a72c2-1b34-4ddd-9cb4-61026ca2b8a9"
       }
     },
     {
       "adName": "Display.IO",
       "banner": {
-        "banner_320_50": "94e0063d-a307-4f60-b352-e4a50c446400"
+        "Banner 320*50": "94e0063d-a307-4f60-b352-e4a50c446400"
       },
       "interstitial": {
-        "interstitial": "228ab4e9-b4f5-4569-82bc-ba7431196808"
+        "Interstitial": "228ab4e9-b4f5-4569-82bc-ba7431196808"
       }
     },
     {
       "adName": "DU Ad Platform",
       "banner": {
-        "banner_320_50": "124c4d62-17d1-413e-974f-352fdf7a2a49"
+        "Banner 320*50": "124c4d62-17d1-413e-974f-352fdf7a2a49"
       },
       "interstitial": {
-        "interstitial": "04149544-8235-452f-a640-d8d0e42cc870"
+        "Interstitial": "04149544-8235-452f-a640-d8d0e42cc870"
       },
       "native": {
-        "native": "9260d2f2-9145-45a5-b2b8-64871199e547"
+        "Native": "9260d2f2-9145-45a5-b2b8-64871199e547"
       }
     },
     {
       "adName": "Facebook",
       "banner": {
-        "banner_320_50": "5ccb63da-90a8-4a15-80dc-64cfc279a2a2",
+        "Banner 320*50": "5ccb63da-90a8-4a15-80dc-64cfc279a2a2",
         "banner_300_250":"543015b0-bd61-4604-9b01-ee6f90003d2d"
       },
       "rewarded": {
-        "rewarded": "b90cada3-707e-47cc-9875-a39953824090"
+        "RewardedVideo": "b90cada3-707e-47cc-9875-a39953824090"
       },
       "interstitial": {
-        "interstitial": "e6467841-5c74-4fc7-8582-81b44e649dd7"
+        "Interstitial": "e6467841-5c74-4fc7-8582-81b44e649dd7"
       },
       "native": {
-        "native": "00ea7ad6-bb0a-442c-af30-023f08729fec"
+        "Native": "00ea7ad6-bb0a-442c-af30-023f08729fec"
       },
       "mixview": {
-        "MixView_Native": "d5274ee3-942b-4053-b65b-3ce68820621f",
-        "MixView_Banner_320*50": "aa927a72-4487-4185-882c-330f6457803a",
-        "MixView_Banner_300*250": "e8b17248-46a8-4410-871b-4347b090d85f"
+        "MixView Native": "d5274ee3-942b-4053-b65b-3ce68820621f",
+        "MixView Banner 320*50": "aa927a72-4487-4185-882c-330f6457803a",
+        "MixView Banner 300*250": "e8b17248-46a8-4410-871b-4347b090d85f"
       },
       "mixfullscreen": {
-        "MixFull_Native": "9ae699c9-f97e-44af-a0c2-b52d286c941d",
-        "MixFull_Banner_320*50": "5d97fe06-14b3-4338-9a49-77dafa3d2123",
-        "MixFull_Banner_300*250": "54eab1cb-ff5e-4f8c-9dbf-ca75c6e9bc9e",
-        "MixFull_Interstitial": "c88fa743-3053-42d6-8d89-7efd8c777066"
+        "MixFullScreen Native": "9ae699c9-f97e-44af-a0c2-b52d286c941d",
+        "MixFullScreen Banner 320*50": "5d97fe06-14b3-4338-9a49-77dafa3d2123",
+        "MixFullScreen Banner 300*250": "54eab1cb-ff5e-4f8c-9dbf-ca75c6e9bc9e",
+        "MixFullScreen Interstitial": "c88fa743-3053-42d6-8d89-7efd8c777066"
       }
     },
     {
       "adName": "Five",
       "banner": {
-        "banner_320_50": "31f2791d-fd12-4189-b64d-6de29693cb93",
+        "Banner 320*50": "31f2791d-fd12-4189-b64d-6de29693cb93",
         "banner_300_250":"241b5c9b-fe13-4fea-8ea5-62e18b696bc8"
       },
       "rewarded": {
-        "rewarded": "eea5bbe3-213e-40c2-93e9-93ead11b22c7"
+        "RewardedVideo": "eea5bbe3-213e-40c2-93e9-93ead11b22c7"
       },
       "interstitial": {
-        "interstitial": "e6ea6e49-9c23-403b-ad3d-20cca1d5259c"
+        "Interstitial": "e6ea6e49-9c23-403b-ad3d-20cca1d5259c"
       },
       "mixview": {
-        "MixView_Banner_320*50": "7415e5c9-3d27-42cd-b123-4f3d2e5632ff",
-        "MixView_Banner_300*250": "9fe14b4c-f040-4eeb-b5e5-a4c9bacd9128"
+        "MixView Banner 320*50": "7415e5c9-3d27-42cd-b123-4f3d2e5632ff",
+        "MixView Banner 300*250": "9fe14b4c-f040-4eeb-b5e5-a4c9bacd9128"
       },
       "mixfullscreen": {
-        "MixFull_Banner_320*50": "fbc2ac52-a2b8-4efa-910b-ce4500c1f75f",
-        "MixFull_Banner_300*250": "ff281bc3-6293-4f0c-a0f8-ccb3a78983df",
-        "MixFull_Interstitial": "c357a361-d24e-4540-a389-aaa4bc845720"
+        "MixFullScreen Banner 320*50": "fbc2ac52-a2b8-4efa-910b-ce4500c1f75f",
+        "MixFullScreen Banner 300*250": "ff281bc3-6293-4f0c-a0f8-ccb3a78983df",
+        "MixFullScreen Interstitial": "c357a361-d24e-4540-a389-aaa4bc845720"
       }
     },
     {
       "adName": "Flurry",
       "banner": {
-        "banner_320_50": "6d63bb65-f229-4f13-8a15-4ef34a9617a0"
+        "Banner 320*50": "6d63bb65-f229-4f13-8a15-4ef34a9617a0"
       },
       "rewarded": {
-        "rewarded": "f5fcd35b-1a87-465a-98f8-abea65b5d6a1"
+        "RewardedVideo": "f5fcd35b-1a87-465a-98f8-abea65b5d6a1"
       },
       "interstitial": {
-        "interstitial": "51314c1e-3411-44b4-8f89-0c7df3185942"
+        "Interstitial": "51314c1e-3411-44b4-8f89-0c7df3185942"
       },
       "native": {
-      "native": "1aa03a9c-abe3-4776-b751-3117c81ad353"
+      "Native": "1aa03a9c-abe3-4776-b751-3117c81ad353"
       }
     },
     {
       "adName": "Fyber",
       "banner": {
-        "banner_320_50": "cbb2eb10-93b6-4cf0-892f-da79579a778d",
-        "banner_300_250": "0c5e4c29-223b-47f4-8174-ca99ed1e4156"
+        "Banner 320*50": "cbb2eb10-93b6-4cf0-892f-da79579a778d",
+        "Banner 300*250": "0c5e4c29-223b-47f4-8174-ca99ed1e4156"
       },
       "interstitial": {
-        "interstitial": "53810164-bcd2-4eed-945f-91c97e97bd9e"
+        "Interstitial": "53810164-bcd2-4eed-945f-91c97e97bd9e"
       },
       "native": {
-        "native": "256dbe9d-de6d-472e-9401-24a4c3840d30"
+        "Native": "256dbe9d-de6d-472e-9401-24a4c3840d30"
       }
     },
     {
       "adName": "i-mobile",
       "banner": {
-        "banner_320_50": "8c7b02a2-f9ba-43c5-afcf-c3ef256d6af1",
+        "Banner 320*50": "8c7b02a2-f9ba-43c5-afcf-c3ef256d6af1",
         "banner_320_100": "30facee8-622a-4162-9668-6fddecdeeab6",
-        "banner_300_250": "d6e455e1-48c4-4b0b-a33f-09c13a2ead0e"
+        "Banner 300*250": "d6e455e1-48c4-4b0b-a33f-09c13a2ead0e"
       },
       "interstitial": {
-        "interstitial": "5eea5825-bc9d-4020-8e07-cfb0f62491ac"
+        "Interstitial": "5eea5825-bc9d-4020-8e07-cfb0f62491ac"
       },
       "native": {
-        "native": "f9304209-9280-4c59-84a1-37c1ae16bc97"
+        "Native": "f9304209-9280-4c59-84a1-37c1ae16bc97"
       }
     },
     {
       "adName": "Inmobi",
       "banner": {
-        "banner_320_50": "6db7de82-8c05-4d20-b65a-1d5916d1dee9",
-        "banner_300_250": "b4406e1c-9cd6-44fe-a461-7250b0779f8b"
+        "Banner 320*50": "6db7de82-8c05-4d20-b65a-1d5916d1dee9",
+        "Banner 300*250": "b4406e1c-9cd6-44fe-a461-7250b0779f8b"
       },
       "rewarded": {
-        "rewarded": "6abd87cc-6a87-4cd1-bc08-490c78b6c7a1"
+        "RewardedVideo": "6abd87cc-6a87-4cd1-bc08-490c78b6c7a1"
       },
       "interstitial": {
-        "interstitial": "080148a5-a074-4f1c-9054-23c03b803080"
+        "Interstitial": "080148a5-a074-4f1c-9054-23c03b803080"
       },
       "native": {
-        "native": "3c79a853-7264-40e8-983e-8da5c31b8d72"
+        "Native": "3c79a853-7264-40e8-983e-8da5c31b8d72"
       }
     },
     {
       "adName": "IronSource",
       "banner": {
-        "banner_320_50": "102403cc-b10b-49f7-ac95-c47d6bfe5d84",
-        "banner_300_250": "2ce89614-e78b-42a7-842a-f1b10e0a3b4e"
+        "Banner 320*50": "102403cc-b10b-49f7-ac95-c47d6bfe5d84",
+        "Banner 300*250": "2ce89614-e78b-42a7-842a-f1b10e0a3b4e"
       },
       "rewarded": {
-        "rewarded": "af7fcea0-0834-4bcd-bdb3-59637c1648f6"
+        "RewardedVideo": "af7fcea0-0834-4bcd-bdb3-59637c1648f6"
       },
       "interstitial": {
-        "interstitial": "52583d20-5d3a-4989-86a8-d97d714ceed0"
+        "Interstitial": "52583d20-5d3a-4989-86a8-d97d714ceed0"
       }
     },
     {
       "adName": "Maio",
       "rewarded": {
-        "rewarded": "0e0e2ce7-d255-4ea1-975a-754fed3671c4"
+        "RewardedVideo": "0e0e2ce7-d255-4ea1-975a-754fed3671c4"
       },
       "interstitial": {
-        "interstitial": "baa759a1-06f3-42ef-86b2-0631b01fe47f"
+        "Interstitial": "baa759a1-06f3-42ef-86b2-0631b01fe47f"
       }
     },
     {
       "adName": "MoPub",
       "banner": {
-        "banner_320_50": "fa4ed654-95f9-4135-98e0-88001498836e",
-        "banner_300_250": "30df9771-c372-45e1-9172-d71dedd9eaa7"
+        "Banner 320*50": "fa4ed654-95f9-4135-98e0-88001498836e",
+        "Banner 300*250": "30df9771-c372-45e1-9172-d71dedd9eaa7"
       },
       "rewarded": {
-        "rewarded": "95b71076-87f7-4dcd-8b02-c19707f37083"
+        "RewardedVideo": "95b71076-87f7-4dcd-8b02-c19707f37083"
       },
       "interstitial": {
-        "interstitial": "a71f18ce-7d40-4a2f-b246-d1b60806a435"
+        "Interstitial": "a71f18ce-7d40-4a2f-b246-d1b60806a435"
       },
       "native": {
-        "native": "96a02419-e2cb-4667-b506-3a15f7702439"
+        "Native": "96a02419-e2cb-4667-b506-3a15f7702439"
       },
       "mixview": {
-        "MixView_Native": "769594f5-f0b5-4f89-9e8c-e02a9fdff145",
-        "MixView_Banner_320*50": "a1253827-5930-45f3-b82c-3f55469204da",
-        "MixView_Banner_300*250": "69c3a864-2b58-4f1c-ba2a-566614b9616c"
+        "MixView Native": "769594f5-f0b5-4f89-9e8c-e02a9fdff145",
+        "MixView Banner 320*50": "a1253827-5930-45f3-b82c-3f55469204da",
+        "MixView Banner 300*250": "69c3a864-2b58-4f1c-ba2a-566614b9616c"
       },
       "mixfullscreen": {
-        "MixFull_Native": "0f82f948-a9d2-4f96-8821-2d12d4cce637",
-        "MixFull_Banner_320*50": "c8b01909-1793-4e54-bddf-aaa91f7c06e5",
-        "MixFull_Banner_300*250": "0455426b-8734-4852-8c5d-5092efcfd61c",
-        "MixFull_Interstitial": "81e4b065-8b3d-4718-92a3-80d42f5ed73e"
+        "MixFullScreen Native": "0f82f948-a9d2-4f96-8821-2d12d4cce637",
+        "MixFullScreen Banner 320*50": "c8b01909-1793-4e54-bddf-aaa91f7c06e5",
+        "MixFullScreen Banner 300*250": "0455426b-8734-4852-8c5d-5092efcfd61c",
+        "MixFullScreen Interstitial": "81e4b065-8b3d-4718-92a3-80d42f5ed73e"
       }
     },
     {
@@ -351,100 +351,100 @@
     {
       "adName": "Pangle",
       "rewarded": {
-        "rewarded": "3871e42d-0e5d-4bec-bfe9-de7d4ec7d6fb"
+        "RewardedVideo": "3871e42d-0e5d-4bec-bfe9-de7d4ec7d6fb"
       },
       "interstitial": {
-        "interstitial": "2207389f-5fe4-4dca-9a8c-85c8897991fe"
+        "Interstitial": "2207389f-5fe4-4dca-9a8c-85c8897991fe"
       }
     },
     {
       "adName": "Tapjoy",
       "rewarded": {
-        "rewarded": "45d81515-0c07-430f-bce6-577951c4862c"
+        "RewardedVideo": "45d81515-0c07-430f-bce6-577951c4862c"
       },
       "interstitial": {
-        "interstitial": "559ef26b-8b08-4855-8b47-3436101d92dc"
+        "Interstitial": "559ef26b-8b08-4855-8b47-3436101d92dc"
       }
     },
     {
       "adName": "Unity Ads",
       "banner": {
-        "banner_320_50": "4691e2e4-5834-4191-803e-9df39b7ca55c"
+        "Banner 320*50": "4691e2e4-5834-4191-803e-9df39b7ca55c"
       },
       "rewarded": {
-        "rewarded": "88874c50-75a3-4c55-b8ad-7f8b584fae41"
+        "RewardedVideo": "88874c50-75a3-4c55-b8ad-7f8b584fae41"
       },
       "interstitial": {
-        "interstitial": "63f37f5a-d045-4e63-a8e2-aafe64823d3d"
+        "Interstitial": "63f37f5a-d045-4e63-a8e2-aafe64823d3d"
       }
     },
     {
       "adName": "Vungle",
       "banner": {
-        "banner_320_50": "3b748e88-11b4-4e81-bdf4-eb394794491e"
+        "Banner 320*50": "3b748e88-11b4-4e81-bdf4-eb394794491e"
       },
       "rewarded": {
-        "rewarded": "35eaf388-83d9-45ce-bd3e-d2f781064c99"
+        "RewardedVideo": "35eaf388-83d9-45ce-bd3e-d2f781064c99"
       },
       "interstitial": {
-        "interstitial": "2d668f07-b84e-4868-bb68-5f06d8be8052"
+        "Interstitial": "2d668f07-b84e-4868-bb68-5f06d8be8052"
       }
     },
     {
       "adName": "MarketPlace",
       "banner": {
-        "banner_320_50": "eca0c462-7758-4397-8812-f3536e3cbd37",
+        "Banner 320*50": "eca0c462-7758-4397-8812-f3536e3cbd37",
         "banner_320_100": "66e1be1a-1d93-4031-80cd-f81b4ce0c457",
-        "banner_300_250": "5dd00e00-90d8-49e0-9183-2ad81818191c",
+        "Banner 300*250": "5dd00e00-90d8-49e0-9183-2ad81818191c",
         "banner_468_60": "213850cf-74fb-4c2e-ab20-6058f6833c7d",
         "banner_728_90": "c6f057f7-b8bd-40e5-b7e5-4d42287a5acb"
       },
       "rewarded": {
-        "rewarded": "89f7016e-ceae-4305-94fe-569c959ed8d4"
+        "RewardedVideo": "89f7016e-ceae-4305-94fe-569c959ed8d4"
       },
       "interstitial": {
-        "interstitial": "97da9199-8314-486c-a1ce-7949dfbc5c21"
+        "Interstitial": "97da9199-8314-486c-a1ce-7949dfbc5c21"
       },
       "native": {
-        "native": "594aee71-d2db-41a7-b4e2-49c508d8ae14"
+        "Native": "594aee71-d2db-41a7-b4e2-49c508d8ae14"
       },
       "mixview": {
-        "MixView_Native": "15677933-128c-4e67-bb2e-831230a34bce",
-        "MixView_Banner_320*50": "16892808-06c7-42e7-af56-0b3441dc4832",
-        "MixView_Banner_300*250": "2681ece9-657c-4b77-a518-2e77fca94ff9"
+        "MixView Native": "15677933-128c-4e67-bb2e-831230a34bce",
+        "MixView Banner 320*50": "16892808-06c7-42e7-af56-0b3441dc4832",
+        "MixView Banner 300*250": "2681ece9-657c-4b77-a518-2e77fca94ff9"
       },
       "mixfullscreen": {
-        "MixFull_Native": "5db75f03-e6f4-4533-be52-bfe762c0e358",
-        "MixFull_Banner_320*50": "b1ce4e8b-45fc-4a36-9ef6-187f432d1cdb",
-        "MixFull_Banner_300*250": "e659e4e8-876c-47c1-8eb1-4fc1c3a3cfd9",
-        "MixFull_Interstitial": "8b1c42c6-1082-4587-ac9d-447855e099f8"
+        "MixFullScreen Native": "5db75f03-e6f4-4533-be52-bfe762c0e358",
+        "MixFullScreen Banner 320*50": "b1ce4e8b-45fc-4a36-9ef6-187f432d1cdb",
+        "MixFullScreen Banner 300*250": "e659e4e8-876c-47c1-8eb1-4fc1c3a3cfd9",
+        "MixFullScreen Interstitial": "8b1c42c6-1082-4587-ac9d-447855e099f8"
       }
     },
     {
       "adName": "Creative Ads",
       "banner": {
-        "banner_320_50": "5502dfa5-6652-42fb-9e7e-215337799789",
-        "banner_300_250": "fbc50bd5-b44c-4144-bca1-89e52b6f7dba"
+        "Banner 320*50": "5502dfa5-6652-42fb-9e7e-215337799789",
+        "Banner 300*250": "fbc50bd5-b44c-4144-bca1-89e52b6f7dba"
       },
       "rewarded": {
-        "rewarded": "9c9509b3-b4cf-4354-a515-1e754657ef6e"
+        "RewardedVideo": "9c9509b3-b4cf-4354-a515-1e754657ef6e"
       },
       "interstitial": {
-        "interstitial": "5568ac9e-be1e-48d6-90f4-726d2f71bc94"
+        "Interstitial": "5568ac9e-be1e-48d6-90f4-726d2f71bc94"
       },
       "native": {
-        "native": "5a28316a-0798-44d1-817e-119998c53643"
+        "Native": "5a28316a-0798-44d1-817e-119998c53643"
       },
       "mixview": {
-        "MixView_Native": "32bd14c7-c835-41aa-b6ad-31cfe7324236",
-        "MixView_Banner_320*50": "7ca5421d-4524-4ab8-85e6-bf10fd4c2b6a",
-        "MixView_Banner_300*250": "1de5608f-aa0a-4626-854e-c387155aedf8"
+        "MixView Native": "32bd14c7-c835-41aa-b6ad-31cfe7324236",
+        "MixView Banner 320*50": "7ca5421d-4524-4ab8-85e6-bf10fd4c2b6a",
+        "MixView Banner 300*250": "1de5608f-aa0a-4626-854e-c387155aedf8"
       },
       "mixfullscreen": {
-        "MixFull_Native": "03deadef-72bc-4876-a260-5a10dfa34369",
-        "MixFull_Banner_320*50": "dabbcc43-128f-450a-a50b-484ebae51eb6",
-        "MixFull_Banner_300*250": "109d4dd9-4f7c-4226-a148-ff5f810edc41",
-        "MixFull_Interstitial": "d1ad5508-cf3b-4623-9662-87cff5049af4"
+        "MixFullScreen Native": "03deadef-72bc-4876-a260-5a10dfa34369",
+        "MixFullScreen Banner 320*50": "dabbcc43-128f-450a-a50b-484ebae51eb6",
+        "MixFullScreen Banner 300*250": "109d4dd9-4f7c-4226-a148-ff5f810edc41",
+        "MixFullScreen Interstitial": "d1ad5508-cf3b-4623-9662-87cff5049af4"
       }
     }
   ]

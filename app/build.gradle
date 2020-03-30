@@ -35,7 +35,7 @@ dependencies {
 
     implementation 'androidx.multidex:multidex:2.0.0'
 
-    implementation 'com.access_company.adlime:adlime:1.9.53.beta'
+    implementation 'com.access_company.adlime:adlime:1.9.49'
 
     // AdColony
     implementation "com.access_company.adlime:mediation_adcolony:3.3.7.5"
@@ -158,8 +158,8 @@ dependencies {
     implementation "com.google.android.gms:play-services-ads:17.1.2"
 
     // Pangle
-    implementation "com.access_company.adlime:mediation_pangle:2.1.5.0.0"
-    implementation "com.access_company.adlime:pangle_open_ad_sdk:2.1.5.0"
+    implementation "com.access_company.adlime:mediation_pangle:2.9.0.1.0"
+    implementation "com.access_company.adlime:pangle_open_ad_sdk:2.9.0.1"
 
     // Unity Ads
     implementation "com.access_company.adlime:mediation_unity:3.1.0.2"
