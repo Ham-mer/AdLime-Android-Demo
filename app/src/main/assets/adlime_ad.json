@@ -355,6 +355,15 @@
       },
       "interstitial": {
         "Interstitial": "2207389f-5fe4-4dca-9a8c-85c8897991fe"
+      },
+      "native": {
+        "Native": "e554d99d-69e3-4156-aaae-2bf743c0f301"
+      },
+      "mixview": {
+        "MixView Native": "63b508cc-2fe9-43a9-a81e-557b6a1a92e9"
+      },
+      "mixfullscreen": {
+        "MixFullScreen Native": "07b744ff-9bd6-4dd9-a5bc-b8464a55b025"
       }
     },
     {
