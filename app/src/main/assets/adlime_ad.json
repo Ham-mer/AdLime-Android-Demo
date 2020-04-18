@@ -12,17 +12,20 @@
       "Interstitial": "49d0e6fa-e527-42f0-9b1b-770a5b333beb"
     },
     "native": {
-      "Native": "304af8d5-8f88-4b3c-a783-aaf3d7d88db4"
+      "Native Image": "304af8d5-8f88-4b3c-a783-aaf3d7d88db4",
+      "Native Video": "247eda76-066d-46e4-9847-9089a945b75c"
     },
     "mixview": {
-      "MixView Native": "71b95bbb-cc6c-48cf-810b-b7a532d1fdfc",
       "MixView Banner 320*50": "cb28be5f-89ac-47e8-b8be-cbd495f225ec",
-      "MixView Banner 300*250": "3a432270-3d78-4dca-ab76-ae007e2c974b"
+      "MixView Banner 300*250": "3a432270-3d78-4dca-ab76-ae007e2c974b",
+      "MixView Native Image": "71b95bbb-cc6c-48cf-810b-b7a532d1fdfc",
+      "MixView Native Video": "ef318710-2dbd-484a-93f6-1284b9ab98d9"
     },
     "mixfullscreen": {
-      "MixFullScreen Native": "30860251-6c32-4d32-8c01-1fc828d92e73",
       "MixFullScreen Banner 320*50": "284050a4-865a-42ab-8e60-1a0f72c00fd3",
       "MixFullScreen Banner 300*250": "ff33ce05-4a98-416c-88ff-d7cdf4e39ecb",
+      "MixFullScreen Native Image": "30860251-6c32-4d32-8c01-1fc828d92e73",
+      "MixFullScreen Native Video": "79527c54-d2c8-4dc9-9295-7fb05cbbaa62",
       "MixFullScreen Interstitial": "6b8ed887-75fb-432b-b240-13d701e54a31"
     }
   },
@@ -82,9 +85,9 @@
         "MixView Banner 300*250": "378d85af-da2a-4e04-9d6d-35e574b7f596"
       },
       "mixfullscreen": {
-        "MixFullScreen Native": "7a824b84-f39c-4e06-a649-4290c1214374",
         "MixFullScreen Banner 320*50": "086f40e9-dcf7-44d8-ae0e-ae45dd080727",
         "MixFullScreen Banner 300*250": "02d30bab-0c4a-4847-8d40-405125470953",
+        "MixFullScreen Native": "7a824b84-f39c-4e06-a649-4290c1214374",
         "MixFullScreen Interstitial": "8bf8de24-972b-4c25-b8ec-38c48baabb6c"
       }
     },
@@ -129,17 +132,20 @@
         "Interstitial": "d6426b6e-9e87-4e73-9634-2fae137fd128"
       },
       "native": {
-        "Native": "ee27ab16-772d-43e1-acbb-96e87ee0f0c4"
+        "Native Image": "ee27ab16-772d-43e1-acbb-96e87ee0f0c4",
+        "Native Video": "c05aa109-7695-49cb-942f-7ced1e873a9f"
       },
       "mixview": {
-        "MixView Native": "adf15f3d-84c6-459d-8942-a8239cd6db9c",
         "MixView Banner 320*50": "c504e99c-1ac0-4a9a-9c35-9cdef0e53b65",
-        "MixView Banner 300*250": "3cb9fc81-ceab-4e5a-aac2-4c37bf571877"
+        "MixView Banner 300*250": "3cb9fc81-ceab-4e5a-aac2-4c37bf571877",
+        "MixView Native Image": "adf15f3d-84c6-459d-8942-a8239cd6db9c",
+        "MixView Native Video": "6f9c7cc5-1990-4807-8c0d-0ac929b0b10b"
       },
       "mixfullscreen": {
-        "MixFullScreen Native": "c8ee76c1-58d8-44f9-a54e-0a62cdd8fee6",
         "MixFullScreen Banner 320*50": "139020c6-c083-4d73-8b58-dc93def552dc",
         "MixFullScreen Banner 300*250": "72d2c5c6-0247-4da6-987d-323cb72bfa97",
+        "MixFullScreen Native Image": "c8ee76c1-58d8-44f9-a54e-0a62cdd8fee6",
+        "MixFullScreen Native Video": "92b4427e-f7fb-4b31-a9e6-08e1aee54f97",
         "MixFullScreen Interstitial": "747a72c2-1b34-4ddd-9cb4-61026ca2b8a9"
       }
     },
@@ -177,17 +183,23 @@
         "Interstitial": "e6467841-5c74-4fc7-8582-81b44e649dd7"
       },
       "native": {
-        "Native": "00ea7ad6-bb0a-442c-af30-023f08729fec"
+        "Native Banner": "ea6a1cf7-d7a4-489b-bffa-4c4d3f13cce3",
+        "Native Image": "00ea7ad6-bb0a-442c-af30-023f08729fec",
+        "Native Video": "bfdc34eb-a440-4073-8e0e-8f13352389f1"
       },
       "mixview": {
-        "MixView Native": "d5274ee3-942b-4053-b65b-3ce68820621f",
         "MixView Banner 320*50": "aa927a72-4487-4185-882c-330f6457803a",
-        "MixView Banner 300*250": "e8b17248-46a8-4410-871b-4347b090d85f"
+        "MixView Banner 300*250": "e8b17248-46a8-4410-871b-4347b090d85f",
+        "MixView Native Banner": "83b94453-dd23-4de9-907d-65f4e7454bde",
+        "MixView Native Image": "d5274ee3-942b-4053-b65b-3ce68820621f",
+        "MixView Native Video": "b02a79ee-1529-4ba7-b7d0-d00303b2979a"
       },
       "mixfullscreen": {
-        "MixFullScreen Native": "9ae699c9-f97e-44af-a0c2-b52d286c941d",
         "MixFullScreen Banner 320*50": "5d97fe06-14b3-4338-9a49-77dafa3d2123",
         "MixFullScreen Banner 300*250": "54eab1cb-ff5e-4f8c-9dbf-ca75c6e9bc9e",
+        "MixFullScreen Native Banner": "7bbac0a4-ed00-4ff5-a5cf-c802834635eb",
+        "MixFullScreen Native Image": "9ae699c9-f97e-44af-a0c2-b52d286c941d",
+        "MixFullScreen Native Video": "30c681c3-74c6-4f6a-b44c-dd511844a07a",
         "MixFullScreen Interstitial": "c88fa743-3053-42d6-8d89-7efd8c777066"
       }
     },
@@ -309,14 +321,14 @@
         "Native": "96a02419-e2cb-4667-b506-3a15f7702439"
       },
       "mixview": {
-        "MixView Native": "769594f5-f0b5-4f89-9e8c-e02a9fdff145",
         "MixView Banner 320*50": "a1253827-5930-45f3-b82c-3f55469204da",
-        "MixView Banner 300*250": "69c3a864-2b58-4f1c-ba2a-566614b9616c"
+        "MixView Banner 300*250": "69c3a864-2b58-4f1c-ba2a-566614b9616c",
+        "MixView Native": "769594f5-f0b5-4f89-9e8c-e02a9fdff145"
       },
       "mixfullscreen": {
-        "MixFullScreen Native": "0f82f948-a9d2-4f96-8821-2d12d4cce637",
         "MixFullScreen Banner 320*50": "c8b01909-1793-4e54-bddf-aaa91f7c06e5",
         "MixFullScreen Banner 300*250": "0455426b-8734-4852-8c5d-5092efcfd61c",
+        "MixFullScreen Native": "0f82f948-a9d2-4f96-8821-2d12d4cce637",
         "MixFullScreen Interstitial": "81e4b065-8b3d-4718-92a3-80d42f5ed73e"
       }
     },
@@ -333,18 +345,20 @@
         "Interstitial": "9d499190-911a-4b1a-8734-23c2de9a9613"
       },
       "native": {
-        "Image Native": "0eb2f4fd-2566-4c3c-9958-082b62a6ee8d",
-        "Video Native": "81d6e364-6d44-46c2-bbc9-539dbdc3bbfa"
+        "Native Image": "d7a01bb6-745f-4dab-a86d-fe856a23abc9",
+        "Native Video": "81d6e364-6d44-46c2-bbc9-539dbdc3bbfa"
       },
       "mixview": {
-        "MixView Native": "e17a81e5-213d-4671-9eeb-ef6bd6d46d52",
         "MixView Banner 320*50": "e870107d-22ba-4f52-aefd-0c51fe360976",
-        "MixView Banner 300*250": "61e9945c-519b-4083-9bae-06d5a0b0334f"
+        "MixView Banner 300*250": "61e9945c-519b-4083-9bae-06d5a0b0334f",
+        "MixView Native Image": "c862374a-587c-4030-a27b-422179d9fc50",
+        "MixView Native Video": "e17a81e5-213d-4671-9eeb-ef6bd6d46d52"
       },
       "mixfullscreen": {
-        "MixFullScreen Native": "90304fa0-6694-49fc-8092-d6ee0e7a881d",
         "MixFullScreen Banner 320*50": "57872b7a-b4ae-4bd4-b855-ca40571af90b",
         "MixFullScreen Banner 300*250": "d6c43bd7-7b7b-4923-8672-3b1f300d2cd1",
+        "MixFullScreen Native Image": "2f5cbe1c-959e-418c-a15d-f31412533d8c",
+        "MixFullScreen Native Video": "90304fa0-6694-49fc-8092-d6ee0e7a881d",
         "MixFullScreen Interstitial": "8465b93f-3f17-4a37-9fad-8fdbb778f2c3"
       }
     },
