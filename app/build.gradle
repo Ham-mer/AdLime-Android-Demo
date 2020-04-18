@@ -35,7 +35,7 @@ dependencies {
 
     implementation 'androidx.multidex:multidex:2.0.0'
 
-    implementation 'com.access_company.adlime:adlime:1.9.49'
+    implementation 'com.access_company.adlime:adlime:1.9.55'
 
     // AdColony
     implementation "com.access_company.adlime:mediation_adcolony:3.3.7.5"
@@ -112,7 +112,7 @@ dependencies {
     // Add gson to support native ads
     implementation "com.google.android.gms:play-services-base:16.1.0"
     implementation "com.google.android.gms:play-services-ads:17.1.2"
-
+//
     // Imobile
     implementation "com.access_company.adlime:mediation_imobile:2.0.20.8"
     implementation 'com.google.android.gms:play-services-ads-identifier:16.0.0'
@@ -149,7 +149,7 @@ dependencies {
     implementation "com.google.android.gms:play-services-base:16.1.0"
 
     // Nend
-    implementation "com.access_company.adlime:mediation_nend:5.4.2.3"
+    implementation "com.access_company.adlime:mediation_nend:5.4.2.5"
     implementation "net.nend.android:nend-sdk:5.4.2"
 
     // Tapjoy
