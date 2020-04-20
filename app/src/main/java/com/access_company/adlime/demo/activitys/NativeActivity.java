@@ -72,6 +72,9 @@ public class NativeActivity extends BaseActivity {
         // Set Single NativeAdLayout
         mNativeAd.setNativeAdLayout(NativeAdLayout.getLargeLayout1());
 
+        // Set Video Muted, default is muted
+        // mNativeAd.setMuted(false);
+
         // Listen Ad load result
         mNativeAd.setAdListener(new SimpleAdListener() {
             @Override
