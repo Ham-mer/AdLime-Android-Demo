@@ -35,7 +35,7 @@ dependencies {
 
     implementation 'androidx.multidex:multidex:2.0.0'
 
-    implementation 'com.access_company.adlime:adlime:1.9.55'
+    implementation 'com.access_company.adlime:adlime:1.10.3'
 
     // AdColony
     implementation "com.access_company.adlime:mediation_adcolony:3.3.7.5"
