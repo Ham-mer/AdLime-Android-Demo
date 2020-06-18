@@ -18,7 +18,11 @@ allprojects {
     repositories {
         google()
         jcenter()
+
         maven { url "https://dl.bintray.com/adlime/AdLime" }
+
+        // AdGeneration
+        maven { url 'https://adgeneration.github.io/ADG-Android-SDK/repository' }
 
         // Display
         maven { url "http://maven.display.io/" }
@@ -31,9 +35,6 @@ allprojects {
 
         // Nend
         maven { url 'http://fan-adn.github.io/nendSDK-Android-lib/library' }
-
-        //AdGeneration
-        maven { url 'https://adgeneration.github.io/ADG-Android-SDK/repository' }
     }
 }
 
