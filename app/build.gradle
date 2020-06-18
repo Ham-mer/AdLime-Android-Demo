@@ -139,12 +139,10 @@ dependencies {
     implementation "com.google.android.gms:play-services-ads:17.2.1"
 
     // MoPub
-    implementation "com.access_company.adlime:mediation_mopub:5.11.1.5"
-    implementation("com.mopub:mopub-sdk:5.11.1@aar") {
+    implementation "com.access_company.adlime:mediation_mopub:5.13.0.0"
+    implementation("com.mopub:mopub-sdk:5.13.0@aar") {
         transitive = true
-        exclude module: 'moat-mobile-app-kit'
     }
-    implementation "com.access_company.adlime:mopub-moat-mobile-app-kit:2.4.5"
     implementation "com.google.android.gms:play-services-ads-identifier:16.0.0"
     implementation "com.google.android.gms:play-services-base:16.1.0"
 
@@ -158,8 +156,8 @@ dependencies {
     implementation "com.google.android.gms:play-services-ads:17.1.2"
 
     // Pangle
-    implementation "com.access_company.adlime:mediation_pangle:2.9.0.1.2"
-    implementation "com.access_company.adlime:pangle_open_ad_sdk:2.9.0.1"
+    implementation "com.access_company.adlime:mediation_pangle:2.9.0.3.0"
+    implementation "com.access_company.adlime:pangle_open_ad_sdk:2.9.0.3"
 
     // Unity Ads
     implementation "com.access_company.adlime:mediation_unity:3.1.0.2"
