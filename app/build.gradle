@@ -91,7 +91,7 @@ dependencies {
     implementation "com.access_company.adlime:fb_bidding_kid_sdk:5.0.1"
 
     // Five
-    implementation "com.access_company.adlime:mediation_five:20200423.0"
+    implementation "com.access_company.adlime:mediation_five:20200610.0"
     implementation "com.google.android.gms:play-services-ads-identifier:16.0.0"
 
     // Flurry
