@@ -1,6 +1,17 @@
 {
   "mediation": [
     {
+      "adName": "AdLimeMarketplace",
+      "banner": {
+        "Banner 320*50": "eca0c462-7758-4397-8812-f3536e3cbd37",
+        "Banner 300*250": "5dd00e00-90d8-49e0-9183-2ad81818191c"
+      },
+      "mixview": {
+        "MixView Banner 320*50": "16892808-06c7-42e7-af56-0b3441dc4832",
+        "MixView Banner 300*250": "2681ece9-657c-4b77-a518-2e77fca94ff9"
+      }
+    },
+    {
       "adName": "AdMob",
       "banner": {
         "Banner 320*50": "ea6fe45b-c7a9-4dcd-aab8-89d8fdb4a93c",
