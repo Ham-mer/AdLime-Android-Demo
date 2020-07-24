@@ -19,6 +19,7 @@ allprojects {
         google()
         jcenter()
 
+        maven { url "../Upload-Nath" }
         maven { url "https://dl.bintray.com/adlime/AdLime" }
 
         // AdGeneration

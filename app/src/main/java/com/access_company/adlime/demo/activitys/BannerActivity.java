@@ -48,7 +48,41 @@ public class BannerActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 // Load BannerAdView
+
                 mBannerAdView.loadAd();
+//                for (int i=0;i<100;i++) {
+//                    mBannerAdView = new BannerAdView(BannerActivity.this);
+//                    mBannerAdView.setAdUnitId("eca0c462-7758-4397-8812-f3536e3cbd37);
+//                    // Listen Ad load result
+//                    mBannerAdView.setAdListener(new SimpleAdListener() {
+//                        @Override
+//                        public void onAdLoaded() {
+//                            Log.d(TAG, "BannerAdView onAdLoaded");
+//                        }
+//
+//                        @Override
+//                        public void onAdShown() {
+//                            Log.d(TAG, "BannerAdView onAdShown");
+//                        }
+//
+//                        @Override
+//                        public void onAdClicked() {
+//                            Log.d(TAG, "BannerAdView onAdClicked");
+//                        }
+//
+//                        @Override
+//                        public void onAdClosed() {
+//                            Log.d(TAG, "BannerAdView onAdClosed");
+//                        }
+//
+//                        @Override
+//                        public void onAdFailedToLoad(AdError adError) {
+//                            Log.d(TAG, "BannerAdView onAdFailedToLoad: " + adError.toString());
+//                        }
+//                    });
+//                    mContainer.addView(mBannerAdView);
+//                    mBannerAdView.loadAd();
+//                }
             }
         });
 
@@ -57,37 +91,8 @@ public class BannerActivity extends BaseActivity {
             Toast.makeText(BannerActivity.this, "bannerId is null", Toast.LENGTH_SHORT).show();
             return;
         }
-
-        mBannerAdView = new BannerAdView(this);
-        mBannerAdView.setAdUnitId(mBannerId);
-
-        // Listen Ad load result
-        mBannerAdView.setAdListener(new SimpleAdListener() {
-            @Override
-            public void onAdLoaded() {
-                Log.d(TAG, "BannerAdView onAdLoaded");
-            }
-
-            @Override
-            public void onAdShown() {
-                Log.d(TAG, "BannerAdView onAdShown");
-            }
-
-            @Override
-            public void onAdClicked() {
-                Log.d(TAG, "BannerAdView onAdClicked");
-            }
-
-            @Override
-            public void onAdClosed() {
-                Log.d(TAG, "BannerAdView onAdClosed");
-            }
-
-            @Override
-            public void onAdFailedToLoad(AdError adError) {
-                Log.d(TAG, "BannerAdView onAdFailedToLoad: " + adError.toString());
-            }
-        });
+        mBannerAdView = new BannerAdView(BannerActivity.this);
+        mBannerAdView.setAdUnitId("eca0c462-7758-4397-8812-f3536e3cbd37");
         mContainer.addView(mBannerAdView);
     }
 }

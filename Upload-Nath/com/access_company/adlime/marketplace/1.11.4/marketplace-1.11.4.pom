@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.access_company.adlime</groupId>
+  <artifactId>marketplace</artifactId>
+  <version>1.11.4</version>
+  <packaging>aar</packaging>
+  <name>AdLime</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>26.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>26.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.danikula</groupId>
+      <artifactId>videocache</artifactId>
+      <version>2.7.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.access_company.adlime</groupId>
+      <artifactId>marketplace-templteadslib</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.access_company.adlime</groupId>
+      <artifactId>marketplace-templteadscore</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

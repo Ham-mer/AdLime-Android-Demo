@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.access_company.adlime.demo"
+        applicationId "jp.co.dwango.seiga.manga.android"
         // for Vungle
 //        applicationId "com.publisher.vungle.sample"
         // for Amazon
@@ -39,7 +39,7 @@ dependencies {
 
     // AdLimeMarketplace
     implementation "com.access_company.adlime:mediation_marketplace:1.11.3.0"
-    implementation "com.access_company.adlime:marketplace:1.11.3"
+    implementation "com.access_company.adlime:marketplace:1.11.4"
 
     // AdColony
     implementation "com.access_company.adlime:mediation_adcolony:3.3.7.5"
