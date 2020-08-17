@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.access_company.adlime.demo"
+        applicationId "jp.co.dwango.seiga.manga.android"
         // for Vungle
 //        applicationId "com.publisher.vungle.sample"
         // for Amazon

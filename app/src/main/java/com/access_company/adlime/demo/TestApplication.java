@@ -14,8 +14,8 @@ public class TestApplication extends Application {
         // Show Log
         AdLime.getDefault().setLogEnable(true);
         // Init With AppId
-        AdLime.getDefault().init(this, "d13be96e-e172-4645-b761-4827a0ae8c0c");
+        AdLime.getDefault().init(this, "7e01c979-8379-4595-acc2-27c701525b77");
         AdLime.getDefault().setNetworkDebugMode(true);
-        AdLime.getDefault().setNetworkTestMode(true);
+//        AdLime.getDefault().setNetworkTestMode(true);
     }
 }

@@ -2,6 +2,7 @@ package com.access_company.adlime.demo.activitys;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -39,6 +40,7 @@ public class BannerActivity extends BaseActivity {
     private void initData() {
         Intent intent = getIntent();
         mBannerId = intent.getStringExtra("banner");
+        mBannerId = "72614bef-cca0-42f9-9b40-ef82f3b4a94e";
     }
 
     private void initBannerAdView() {
@@ -71,6 +73,12 @@ public class BannerActivity extends BaseActivity {
             @Override
             public void onAdShown() {
                 Log.d(TAG, "BannerAdView onAdShown");
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        mBannerAdView.loadAd();
+                    }
+                }, 10000);
             }
 
             @Override
@@ -86,6 +94,12 @@ public class BannerActivity extends BaseActivity {
             @Override
             public void onAdFailedToLoad(AdError adError) {
                 Log.d(TAG, "BannerAdView onAdFailedToLoad: " + adError.toString());
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        mBannerAdView.loadAd();
+                    }
+                }, 100);
             }
         });
         mContainer.addView(mBannerAdView);
